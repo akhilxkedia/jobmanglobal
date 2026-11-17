@@ -3664,7 +3664,7 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
   font-size: 15px;
   line-height: 1.5;
 }
-.resources-page #faq .faq-note { margin-top: 14px; }
+.resources-page #faq .faq-note { margin: 14px 0 0; max-width: none; text-align: left; font-weight: 700; color: #1e293b; }
 @media (max-width: 640px) {
   .resources-page .section-animate h2 { font-size: 19px; }
 }
@@ -4002,6 +4002,102 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
   .insights-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
+#growth-corridors { scroll-margin-top: 96px; }
+
+/* Uniform section titles — match the Growth Corridors heading */
+main .section-heading h2 {
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.015em;
+  margin-bottom: 12px;
+}
+main section:not(.resources-intro) .section-heading h2 { color: #052d4c; }
+.resources-page #faq .section-heading h2 { font-size: clamp(26px, 3vw, 36px); }
+/* ============================================================
+   CTA BAND — same design as homepage / company CTA
+   ============================================================ */
+.cxo-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: clamp(28px, 3vw, 40px);
+  padding: clamp(22px, 2.6vw, 32px) clamp(22px, 3vw, 36px);
+  border-radius: 10px;
+  border: 1px solid rgba(90, 159, 212, .28);
+  background: linear-gradient(135deg, #0a4474 0%, #052d4c 60%, #041f36 100%);
+  box-shadow: 0 14px 34px rgba(5, 45, 76, .18);
+  position: relative;
+  overflow: hidden;
+}
+.cxo-cta::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #8ec5ef, #1e74b2);
+}
+.cxo-cta p {
+  max-width: none;
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--display);
+  font-size: clamp(18px, 1.6vw, 22px);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+.cxo-cta-btn {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 26px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, .85);
+  background: #ffffff;
+  color: #052d4c;
+  font-family: var(--body);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .22);
+  transition: background .25s var(--ease), color .25s var(--ease), transform .3s var(--out), box-shadow .3s var(--ease);
+}
+.cxo-cta-btn:hover { background: #e8f1f9; color: #052d4c; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0, 0, 0, .3); }
+.cxo-cta-btn .cxo-arrow {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--vermilion);
+  animation: cxoArrowNudge 1.6s ease-in-out infinite;
+}
+.cxo-cta-btn:hover .cxo-arrow { animation-duration: .8s; }
+@keyframes cxoArrowNudge {
+  0%, 100% { transform: translateX(0); opacity: 1; }
+  50%      { transform: translateX(6px); opacity: .75; }
+}
+.cxo-cta-btn .cxo-label {
+  display: inline-block;
+  transform-origin: center;
+  animation: cxoLabelPulse 1.6s ease-in-out infinite;
+}
+.cxo-cta-btn:hover .cxo-label { animation-play-state: paused; }
+@keyframes cxoLabelPulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.05); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cxo-cta-btn .cxo-arrow,
+  .cxo-cta-btn .cxo-label { animation: none; }
+}
+@media (max-width: 680px) {
+  .cxo-cta { flex-direction: column; align-items: stretch; }
+  .cxo-cta-btn { justify-content: center; }
+}
 </style>
     <link rel="stylesheet" href="footer.css%3Fv=20261116.css">
     <link rel="alternate" type="text/markdown" href="llms.txt" title="LLM Context Documentation">
@@ -4065,6 +4161,7 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
               <a href="resources.html#provider-comparison" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Provider Comparison &darr;</span></a>
               <a href="resources.html#entry-modes" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Entry Modes &darr;</span></a>
               <a href="resources.html#client-scenarios" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Real-World Scenarios &darr;</span></a>
+              <a href="resources.html#growth-corridors" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Growth Corridors &darr;</span></a>
               <a href="resources.html#tier-2-3-cities" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Tier-2/3 Economics &darr;</span></a>
               <a href="resources.html#india-glossary" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Plain-English Glossary &darr;</span></a>
               <a href="resources.html#industry-insights" class="button ghost" style="padding:6px 14px; font-size:12px;"><span>Industry Reports &darr;</span></a>
@@ -4529,6 +4626,125 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
         </div>
       </section>
 
+      <!-- Growth Corridors -->
+      <section class="section-animate growth-corridors-section" id="growth-corridors" style="background:#f8fafc; padding-top:clamp(44px, 4.5vw, 70px); padding-bottom:clamp(44px, 4.5vw, 70px); border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
+              <div class="wrap">
+                <div class="section-heading">
+                  <p class="eyebrow" style="color:var(--vermilion); font-weight:700; letter-spacing:0.16em;">Growth Corridors</p>
+                  <div>
+                    <h2 data-split style="color:#052d4c; font-size:clamp(26px, 3vw, 36px); font-weight:700; margin:0 0 12px; line-height:1.25;">Four Strategic Growth Corridors Bridging Key Markets to India</h2>
+                    <p class="lede" style="color:#334155; font-size:17.5px; line-height:1.6; max-width:none;">While European enterprises benefit from our anchored Swiss presence in Basel, Jobman Global facilitates structured, compliant cross-border market entry, EOR hiring, and GCC delivery across four primary global corridors.</p>
+                  </div>
+                </div>
+
+                <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:32px;">
+                  <!-- Corridor 1: EMEA -->
+                  <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
+                    <div>
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                        <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#eff6ff; color:#1d4ed8; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">EMEA Corridor</span>
+                        <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">Basel Anchor</span>
+                      </div>
+                      <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Europe &amp; Middle East</h3>
+                      <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Anchored by Stephan Buchli in Basel, Switzerland, leveraging the landmark <strong>India–EFTA TEPA</strong> and UAE CEPA for zero-duty industrial access and seamless Swiss-Indian collaboration.</p>
+                
+                      <!-- Verified Data Chips -->
+                      <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$100B TEPA Commitment</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">1M Direct Jobs</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$100.06B UAE CEPA</span>
+                      </div>
+
+                      <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
+                        <li>Dedicated European advisory contact (Basel)</li>
+                        <li>100% full-day synchronous working overlap (15h shift)</li>
+                        <li>TEPA investment &amp; services compliance</li>
+                      </ul>
+                    </div>
+                    <a href="global-india.html#how-it-works" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">How Europe–India Works &rarr;</a>
+                  </div>
+
+                  <!-- Corridor 2: North America -->
+                  <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
+                    <div>
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                        <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#fef2f2; color:#b91c1c; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">North America</span>
+                        <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">$239.6B Bilateral</span>
+                      </div>
+                      <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">US &amp; Canada Tech Scale</h3>
+                      <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Supporting fast-scaling US tech firms, healthcare innovators, and enterprise SaaS companies with rapid 5–10 day EOR team deployments and captive engineering centers.</p>
+                
+                      <!-- Verified Data Chips -->
+                      <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$239.6B Goods &amp; Services</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$90.4B Services Trade</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">+12.1% YoY Expansion</span>
+                      </div>
+
+                      <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
+                        <li>3.5h live morning sync (EST) for standups</li>
+                        <li>24/7 Follow-the-Sun engineering sprints</li>
+                        <li>Turnkey captive engineering GCCs</li>
+                      </ul>
+                    </div>
+                    <a href="staffing-eor.html#staffing-eor-overview" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Explore EOR Deployment &rarr;</a>
+                  </div>
+
+                  <!-- Corridor 3: APAC -->
+                  <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
+                    <div>
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                        <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#ecfdf5; color:#047857; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">APAC Corridor</span>
+                        <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">ECTA &amp; ASEAN</span>
+                      </div>
+                      <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Australia, Singapore &amp; Asia</h3>
+                      <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Strengthened by the <strong>India–Australia ECTA</strong> and ASEAN bilateral agreements. We assist regional APAC HQs in Singapore, Sydney, and Tokyo with dual-shore talent architecture.</p>
+                
+                      <!-- Verified Data Chips -->
+                      <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">100% Duty-Free Tariff Lines</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">135 Service Sub-Sectors</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$24.1B Trade</span>
+                      </div>
+
+                      <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
+                        <li>7.5h aligned synchronous working window</li>
+                        <li>ECTA preferential market access &amp; mobility</li>
+                        <li>Singapore holding company &amp; FDI structuring</li>
+                      </ul>
+                    </div>
+                    <a href="marketing-advisory.html#market-entry-advisory" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Explore Entity Advisory &rarr;</a>
+                  </div>
+
+                  <!-- Corridor 4: Growth Markets -->
+                  <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
+                    <div>
+                      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
+                        <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#faf5ff; color:#7e22ce; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">Growth Markets</span>
+                        <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">DTAA Treaties</span>
+                      </div>
+                      <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Global South &amp; Emerging Hubs</h3>
+                      <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Cross-border structuring for enterprises entering India's massive domestic consumer market from Latin America, Africa, and Central Asia via optimized Double Taxation Avoidance Agreements (DTAA).</p>
+                
+                      <!-- Verified Data Chips -->
+                      <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">43 LatAm &amp; Caribbean Nations</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$39.19B Bilateral Trade</span>
+                        <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">Mauritius / DTAA Routing</span>
+                      </div>
+
+                      <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
+                        <li>DTAA &amp; cross-border tax advisory</li>
+                        <li>Import-Export (IEC) &amp; customs governance</li>
+                        <li>Consumer market testing via EOR models</li>
+                      </ul>
+                    </div>
+                    <a href="contact.html#contact" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Discuss Corridor Scoping &rarr;</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+
       <!-- Plain-English India Business Glossary -->
       <section class="section-animate india-glossary-section" id="india-glossary" style="background:var(--bone); padding-top:clamp(40px, 4vw, 64px); padding-bottom:clamp(40px, 4vw, 64px);">
         <div class="wrap">
@@ -4822,18 +5038,16 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
             </details>
           </div>
           <p class="faq-note">Note: Specific timelines, costs, and city recommendations vary by client situation. This FAQ is intended as a general reference; contact Jobman Global directly for guidance tailored to a specific company's requirements.</p>
+
+          <div class="cxo-cta">
+            <p>Turn general information into a plan tailored to your business.</p>
+            <a class="cxo-cta-btn" href="contact.html#contact"><span class="cxo-label">Get Guidance for Your Situation</span> <span class="cxo-arrow" aria-hidden="true">&rarr;</span></a>
+          </div>
         </div>
       </section>
 
     </main>
     <footer class="site-footer" id="site-footer">
-      <div class="footer-cta-banner">
-        <div class="footer-shell" style="display:flex; justify-content:space-between; align-items:center; width:100%; flex-wrap:wrap; gap:16px;">
-          <p>Planning to enter India or streamline domestic operations? Discuss your team size and get indicative commercials.</p>
-          <a class="cta-btn" href="contact.html#contact">Book a 15-Minute Scoping Call &rarr;</a>
-        </div>
-      </div>
-
       <div class="footer-directory">
         <div class="footer-shell footer-directory-grid cta-directory">
           <section class="footer-cta-brand">
@@ -4885,7 +5099,7 @@ main.resources-page > section:not(.resources-intro):not(#jobman-ecosystem) {
               <a href="resources.html#client-scenarios">Real-World Scenarios</a>
               <a href="resources.html#india-glossary">India Business Glossary</a>
               <a href="resources.html#industry-insights">Industry Research</a>
-            <a href="global-india.html#global-growth-corridors">Global Corridors</a>
+            <a href="resources.html#growth-corridors">Global Corridors</a>
             </nav>
           </section>
         </div>

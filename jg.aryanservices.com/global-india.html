@@ -1607,7 +1607,10 @@ section:not(.hero) { padding-block: var(--sec); }
 .eu-overview .eyebrow, .eu-cta .eyebrow { color: var(--flame); }
 .eu-overview h2, .eu-cta h2 { color: var(--on-ink); }
 .eu-overview .lede, .eu-cta .lede { color: var(--on-ink-muted); }
-.eu-hero-grid { grid-template-columns: minmax(0, 0.82fr) minmax(420px, 1.18fr); gap: clamp(26px, 4.22vw, 56px); align-items: center; }
+.eu-hero-grid { display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(460px, 1.05fr); gap: clamp(28px, 4vw, 56px); align-items: center; }
+.eu-hero-grid > div:first-child { text-align: left; }
+.eu-hero-grid .lede { max-width: none; margin-bottom: 0; }
+.eu-hero-grid .eu-live-clock { justify-self: end; width: 100%; }
 .eu-route-box {
   position: relative;
   overflow: hidden;
@@ -1655,7 +1658,7 @@ section:not(.hero) { padding-block: var(--sec); }
   color: var(--on-ink);
   box-shadow: inset 0 1px 0 rgba(234, 240, 246,.06),0 24px 60px rgba(3, 23, 38,.35);
 }
-.eu-live-clock .eu-clock-layout { display: grid; grid-template-columns: minmax(0,190px) minmax(0,1fr); gap: clamp(10px, 1.41vw, 16px); align-items: center; }
+.eu-live-clock .eu-clock-layout { display: grid; grid-template-columns: minmax(0,180px) minmax(0,1fr); gap: clamp(12px, 1.6vw, 20px); align-items: center; }
 .eu-live-clock .eu-clock-dial { position: relative; width: 100%; max-width: 210px; aspect-ratio: 1; margin-inline: auto; }
 .eu-live-clock .eu-clock-dial svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
 .eu-live-clock .dial-track { fill: none; stroke: rgba(234, 240, 246,.1); stroke-linecap: butt; }
@@ -1681,12 +1684,12 @@ section:not(.hero) { padding-block: var(--sec); }
 .eu-live-clock .readout .k i.ind { background: var(--flame); }
 .eu-live-clock .readout .k i.ovl { background: var(--vermilion); }
 .eu-live-clock .readout .v { flex: none; padding-right: 6px; color: var(--on-ink); font-family: var(--display); font-size: clamp(12px,1.1vw,15px); font-weight: 600; letter-spacing: -.02em; font-variant-numeric: tabular-nums; white-space: nowrap; }
-.eu-live-clock .overlap-line { margin: 14px 0 0; color: var(--on-ink-muted); font-size: 13.5px; line-height: 1.55; }
+.eu-live-clock .overlap-line { margin: 14px 0 0; padding-top: 12px; border-top: 1px solid var(--hair-ink); color: var(--on-ink-muted); font-size: 13.5px; line-height: 1.55; }
 .eu-live-clock .overlap-line strong { color: var(--on-ink); font-weight: 600; }
-.eu-hero-stats { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); margin-top: clamp(19px, 2.82vw, 31px); border-top: 1px solid var(--hair-ink); }
+.eu-hero-stats { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); margin-top: clamp(19px, 2.82vw, 31px); border-top: 1px solid var(--hair-ink); }
 .eu-hero-stats span { padding: 14px 16px 14px; border-left: 1px solid var(--hair-ink); color: var(--on-ink-muted); font-family: var(--mono); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
 .eu-hero-stats span:first-child { border-left: 0; padding-left: 0; }
-.eu-hero-stats strong { display: block; margin-bottom: 8px; color: var(--on-ink); font-family: var(--display); font-size: 28px; font-weight: 500; letter-spacing: -.02em; text-transform: none; }
+.eu-hero-stats strong { display: block; margin-bottom: 8px; color: var(--on-ink); font-family: var(--display); font-size: clamp(20px, 1.8vw, 26px); font-weight: 500; letter-spacing: -.02em; text-transform: none; }
 section.eu-overview { padding-block-start: clamp(104px, 8vw, 128px); padding-block-end: 0; }
 .eu-section { background: var(--bone); }
 .eu-section.alt { background: var(--bone-warm); }
@@ -2701,6 +2704,9 @@ footer span { max-width: 64ch; }
 }
 
 @media (max-width: 900px) {
+  .eu-hero-stats { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .eu-hero-stats span:nth-child(3) { border-left: 0; padding-left: 0; }
+  .eu-hero-stats span:nth-child(-n+2) { border-bottom: 1px solid var(--hair-ink); }
   .nav-toggle { display: grid; }
   .brand, .nav-toggle { position: relative; z-index: 46; }
   .site-header:has(.main-nav.is-open) { background: var(--bone); border-bottom-color: transparent; }
@@ -2848,6 +2854,296 @@ footer span { max-width: 64ch; }
   .accordion-grid summary, .faq summary { padding-right: 26px; }
   .accordion-grid details > p, .faq details > p { padding-right: 0; }
 }
+
+/* Uniform section titles — match the Growth Corridors heading */
+main h2, .section h2, .section-animate h2 {
+  color: #052d4c;
+  font-family: var(--display);
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.015em;
+  margin-bottom: 12px;
+}
+.eu-overview h2, .eu-cta h2 { color: var(--on-ink); }
+.eu-overview h1 {
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.015em;
+}
+
+/* MARKET SAVINGS TABLE — multi-market comparison */
+.eu-savings.markets > div { grid-template-columns: minmax(150px,1fr) repeat(5,minmax(150px,1fr)); min-width: 1000px; }
+.eu-savings.markets span { padding: 13px 12px; font-size: 14.5px; line-height: 1.4; font-variant-numeric: tabular-nums; }
+.eu-savings.markets span:first-child { font-weight: 650; }
+.eu-savings.markets span small { display: block; margin-top: 2px; color: var(--on-bone-muted); font-size: 12px; font-weight: 400; }
+.eu-savings.markets span.em { color: var(--on-bone); font-weight: 600; }
+.eu-savings.markets span.win { color: var(--vermilion-text); font-weight: 650; background: rgba(30, 116, 178,.06); }
+.eu-savings.markets .head span.win { background: transparent; }
+.eu-savings.markets > div:nth-child(even):not(.head) { background: rgba(5, 45, 76,.025); }
+#global-savings .eu-note { color: #052d4c; font-weight: 700; }
+#global-savings .eu-savings-footnote { color: #052d4c; font-size: 13px; line-height: 1.55; font-weight: 700; }
+#global-savings .eu-savings-footnote strong { color: #052d4c; }
+
+/* DUAL-HUB GOVERNANCE STRIP — beneath hero */
+section.dual-hub { background: #ffffff; padding-top: clamp(40px, 4vw, 60px); padding-bottom: clamp(40px, 4vw, 60px); border-bottom: 1px solid #e2e8f0; }
+.dual-hub-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 24px); margin-top: clamp(22px, 2.4vw, 32px); }
+.dual-hub-card { position: relative; display: flex; flex-direction: column; padding: clamp(22px, 2.4vw, 30px); border: 1px solid #cbd5e1; border-top: 3px solid #052d4c; border-radius: 8px; background: #fff; box-shadow: 0 4px 14px rgba(5, 45, 76, 0.05); transition: transform .45s var(--out), box-shadow .45s var(--ease), border-color .35s var(--ease); }
+.dual-hub-card:hover { transform: translateY(-4px); border-top-color: #d84315; box-shadow: 0 14px 30px rgba(5, 45, 76, 0.10); }
+.dual-hub-icon { display: grid; place-items: center; width: 44px; height: 44px; margin-bottom: 16px; border-radius: 6px; border: 1px solid rgba(30, 116, 178, .28); background: rgba(30, 116, 178, .08); color: #1e74b2; }
+.dual-hub-icon svg { width: 22px; height: 22px; }
+.dual-hub-card h3 { margin: 0 0 4px; color: #052d4c; font-family: var(--display); font-size: clamp(19px, 1.6vw, 22px); font-weight: 700; line-height: 1.25; }
+.dual-hub-card .dual-hub-sub { margin: 0 0 12px; color: #d84315; font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.dual-hub-card p { max-width: none; margin: 0; color: #334155; font-size: 15px; line-height: 1.6; }
+@media (max-width: 900px) { .dual-hub-grid { grid-template-columns: minmax(0, 1fr); } }
+
+/* THE EDGE — European advantage note card */
+.edge-note { display: flex; align-items: flex-start; gap: 14px; margin-top: 20px; padding: clamp(18px, 2vw, 24px) clamp(20px, 2.4vw, 28px); border: 1px solid #cbd5e1; border-left: 4px solid #1e74b2; border-radius: 8px; background: #ffffff; box-shadow: 0 4px 14px rgba(5, 45, 76, 0.05); }
+.edge-note-icon { display: grid; place-items: center; flex: 0 0 auto; width: 36px; height: 36px; border-radius: 6px; background: rgba(30, 116, 178, .1); color: #1e74b2; }
+.edge-note-icon svg { width: 20px; height: 20px; }
+.edge-note p { max-width: none; margin: 0; color: #334155; font-size: 15.5px; line-height: 1.65; }
+.edge-note p strong { color: #052d4c; font-weight: 700; }
+
+/* THE EDGE — European advantage panel with profile */
+.edge-panel { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(320px, .9fr); gap: clamp(24px, 3vw, 44px); align-items: center; margin-top: clamp(26px, 3vw, 40px); padding: clamp(26px, 3vw, 40px); border-radius: 10px; border: 1px solid rgba(90, 159, 212, .28); background: linear-gradient(135deg, #0a4474 0%, #052d4c 60%, #041f36 100%); box-shadow: 0 14px 34px rgba(5, 45, 76, .18); color: #fff; }
+.edge-panel-kicker { margin: 0 0 12px; color: #8ec5ef; font-family: var(--mono); font-size: 11.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; }
+.edge-panel-copy h3 { margin: 0 0 14px; color: #fff; font-family: var(--display); font-size: clamp(21px, 2vw, 27px); font-weight: 700; line-height: 1.3; letter-spacing: -.01em; }
+.edge-panel-copy p:not(.edge-panel-kicker) { max-width: none; margin: 0; color: rgba(234, 240, 246, .82); font-size: 15.5px; line-height: 1.65; }
+.edge-profile { display: grid; grid-template-columns: 120px minmax(0, 1fr); gap: 18px; align-items: start; padding: 20px; border-radius: 8px; background: #fff; color: #052d4c; box-shadow: 0 10px 26px rgba(0, 0, 0, .22); }
+.edge-profile-photo { margin: 0; width: 120px; aspect-ratio: 1; overflow: hidden; border-radius: 6px; background: #e2e8f0; }
+.edge-profile-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+.edge-profile-role { margin: 0 0 4px; color: #d84315; font-family: var(--mono); font-size: 10.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.edge-profile h4 { margin: 0 0 8px; color: #052d4c; font-family: var(--display); font-size: 21px; font-weight: 700; line-height: 1.2; }
+.edge-profile-body p:not(.edge-profile-role) { max-width: none; margin: 0 0 10px; color: #334155; font-size: 14px; line-height: 1.6; }
+.edge-profile-link { display: inline-block; color: #1e74b2; font-size: 13.5px; font-weight: 700; text-decoration: none; }
+.edge-profile-link:hover { color: #0a5289; text-decoration: underline; }
+@media (max-width: 1000px) { .edge-panel { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 520px) { .edge-profile { grid-template-columns: minmax(0, 1fr); } .edge-profile-photo { width: 100px; } }
+
+/* ============================================================
+   CTA BAND — same design as homepage / company CTA
+   ============================================================ */
+.cxo-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: clamp(28px, 3vw, 40px);
+  padding: clamp(22px, 2.6vw, 32px) clamp(22px, 3vw, 36px);
+  border-radius: 10px;
+  border: 1px solid rgba(90, 159, 212, .28);
+  background: linear-gradient(135deg, #0a4474 0%, #052d4c 60%, #041f36 100%);
+  box-shadow: 0 14px 34px rgba(5, 45, 76, .18);
+  position: relative;
+  overflow: hidden;
+}
+.cxo-cta::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 4px;
+  background: linear-gradient(180deg, #8ec5ef, #1e74b2);
+}
+.cxo-cta p {
+  max-width: none;
+  margin: 0;
+  color: #ffffff;
+  font-family: var(--display);
+  font-size: clamp(18px, 1.6vw, 22px);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -.01em;
+}
+.cxo-cta-btn {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 52px;
+  padding: 0 26px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, .85);
+  background: #ffffff;
+  color: #052d4c;
+  font-family: var(--body);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, .22);
+  transition: background .25s var(--ease), color .25s var(--ease), transform .3s var(--out), box-shadow .3s var(--ease);
+}
+.cxo-cta-btn:hover { background: #e8f1f9; color: #052d4c; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(0, 0, 0, .3); }
+.cxo-cta-btn .cxo-arrow {
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--vermilion);
+  animation: cxoArrowNudge 1.6s ease-in-out infinite;
+}
+.cxo-cta-btn:hover .cxo-arrow { animation-duration: .8s; }
+@keyframes cxoArrowNudge {
+  0%, 100% { transform: translateX(0); opacity: 1; }
+  50%      { transform: translateX(6px); opacity: .75; }
+}
+.cxo-cta-btn .cxo-label {
+  display: inline-block;
+  transform-origin: center;
+  animation: cxoLabelPulse 1.6s ease-in-out infinite;
+}
+.cxo-cta-btn:hover .cxo-label { animation-play-state: paused; }
+@keyframes cxoLabelPulse {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.05); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cxo-cta-btn .cxo-arrow,
+  .cxo-cta-btn .cxo-label { animation: none; }
+}
+@media (max-width: 680px) {
+  .cxo-cta { flex-direction: column; align-items: stretch; }
+  .cxo-cta-btn { justify-content: center; }
+}
+
+/* OPERATING MODEL — Two ways to operate (ported from homepage) */
+.coverage .section-heading { margin-bottom: clamp(10px, 0.99vw, 14px); }
+.operating-story { max-width: 1120px; margin-inline: auto; }
+.operating-intro { width: 100%; max-width: none; margin: 0 0 clamp(19px, 3.5vh, 26px); }
+.operating-path { position: relative; display: grid; grid-template-columns: minmax(0, 1fr) minmax(150px, .42fr) minmax(0, 1fr); gap: clamp(12px, 2.11vw, 26px); align-items: center; --op-gap: clamp(12px, 2.11vw, 26px); }
+.operating-card { position: relative; min-height: 205px; padding: clamp(11px, 1.32vw, 16px) clamp(98px, 8vw, 118px) clamp(22px, 2.2vw, 28px) clamp(22px, 2.2vw, 28px); overflow: hidden; border: 1px solid var(--hair); border-radius: 14px; background: rgba(250, 251, 252, .82); box-shadow: 0 16px 42px rgba(5, 45, 76, .08); }
+.operating-card::after { content: ""; position: absolute; right: -54px; bottom: -64px; width: 170px; aspect-ratio: 1; border: 1px dashed rgba(30, 116, 178, .25); border-radius: 50%; transition: transform .8s var(--out); }
+.operating-card:hover::after { transform: rotate(30deg) scale(1.08); }
+.operating-card.entity { background: var(--ink); color: var(--on-ink); }
+.operating-card.entity::after { border-color: rgba(90, 159, 212, .35); }
+.operating-icon { position: absolute; z-index: 2; top: clamp(22px, 2.2vw, 28px); right: clamp(22px, 2.2vw, 28px); display: grid; place-items: center; width: 64px; height: 64px; margin: 0; border: 1px solid rgba(30, 116, 178, .25); border-radius: 50%; color: var(--vermilion); background: rgba(30, 116, 178, .07); }
+.operating-card.entity .operating-icon { border-color: var(--hair-ink); color: var(--flame); background: rgba(90, 159, 212, .08); }
+.operating-icon svg { width: 32px; height: 32px; }
+.operating-step { display: block; margin-bottom: 10px; color: var(--vermilion-text); font-family: var(--mono); font-size: 10px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; }
+.operating-card.entity .operating-step { color: var(--flame); }
+.operating-card h3 { position: relative; z-index: 1; margin: 0 0 9px; color: var(--ink); font-family: var(--display); font-size: clamp(23px, 2.1vw, 30px); font-weight: 600; line-height: 1.08; }
+.operating-card.entity h3 { color: var(--on-ink); }
+.operating-card p { position: relative; z-index: 1; margin: 0; color: var(--on-bone-muted); font-size: 15px; }
+.operating-card.entity p { color: var(--on-ink-muted); }
+.operating-bridge { position: relative; display: grid; place-items: center; align-self: center; min-height: 120px; text-align: center; }
+.operating-bridge::before { content: ""; position: absolute; top: 50%; left: calc(-1 * var(--op-gap)); right: calc(-1 * var(--op-gap)); height: 1px; background: rgba(5, 45, 76, .17); }
+.operating-bridge::after { content: ""; position: absolute; top: calc(50% - 1px); left: calc(-1 * var(--op-gap)); right: calc(-1 * var(--op-gap)); height: 2px; background: var(--vermilion); transform: scaleX(0); transform-origin: left; transition: transform 1.2s var(--out) .35s; }
+.coverage.in-view .operating-bridge::after { transform: scaleX(1); }
+.operating-bridge span { position: relative; z-index: 2; max-width: 150px; padding: 10px 13px; border: 1px solid var(--hair); border-radius: 999px; background: var(--sand); color: var(--vermilion-deep); font-family: var(--mono); font-size: 9px; font-weight: 600; line-height: 1.4; letter-spacing: .08em; text-transform: uppercase; }
+.operating-bridge span::after { content: none; }
+.operating-flow-dot { position: absolute; z-index: 1; top: 50%; left: calc(-1 * var(--op-gap)); width: 10px; height: 10px; border: 2px solid var(--sand); border-radius: 50%; background: var(--vermilion); box-shadow: 0 0 0 5px rgba(30, 116, 178, .13), 0 0 18px rgba(30, 116, 178, .42); opacity: 0; transform: translateY(-50%); }
+.coverage.in-view .operating-flow-dot { animation: operatingFlowAcross 1.8s linear .42s infinite; }
+.coverage.in-view .operating-card.entity { animation: operatingEntityArrival .8s var(--ease) 1.55s both; }
+@keyframes operatingFlowAcross {
+  0% { left: -42px; opacity: 0; }
+  4%, 90% { opacity: 1; }
+  100% { left: calc(100% + 32px); opacity: 0; }
+}
+@keyframes operatingEntityArrival {
+  0%, 100% { border-color: var(--hair); box-shadow: 0 16px 42px rgba(5, 45, 76, .08); }
+  48% { border-color: rgba(90, 159, 212, .72); box-shadow: 0 18px 48px rgba(30, 116, 178, .24); }
+}
+.operating-advice { position: relative; margin: clamp(19px, 2.46vh, 26px) 0 0; padding: clamp(11px, 1.41vw, 16px) clamp(22px, 3vw, 34px); border-left: 3px solid var(--vermilion); background: rgba(250, 251, 252, .68); color: var(--on-bone-muted); font-size: clamp(15px, 1.25vw, 17px); line-height: 1.5; }
+.operating-table-cta-row { margin-top: 22px; text-align: center; }
+.operating-table-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border: 1px solid var(--hair);
+  border-radius: 999px;
+  background: var(--sand);
+  color: var(--vermilion-text);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: .04em;
+  transition: background .35s var(--ease), border-color .35s var(--ease), color .35s var(--ease), transform .4s var(--out);
+}
+.operating-table-cta .arw { display: inline-flex; align-items: center; line-height: 1; transition: transform .4s var(--out); }
+.operating-table-cta:hover { background: var(--vermilion); border-color: var(--vermilion); color: #fff; transform: translateY(-2px); }
+.operating-table-cta:hover .arw { transform: translateX(5px); }
+.operating-checks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin: clamp(16px, 2.11vh, 23px) 0 0;
+  padding: 0;
+  list-style: none;
+}
+.operating-checks li {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border-radius: 999px;
+  background: var(--vermilion-deep);
+  color: var(--bone);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: .03em;
+  transition: transform .3s var(--out), box-shadow .3s var(--ease);
+}
+.operating-checks li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(5, 45, 76, .16);
+}
+.operating-checks li::before {
+  content: "\2713";
+  font-size: 11px;
+  transition: transform .3s var(--out);
+}
+.operating-checks li:hover::before { transform: scale(1.25); }
+.operating-checks li.r {
+  opacity: 0;
+  transform: scale(.6);
+  transition: none;
+}
+.operating-checks li.r.is-in {
+  animation: operatingChipPop .55s var(--out) both;
+  animation-delay: calc(var(--i, 0) * 100ms);
+}
+@keyframes operatingChipPop {
+  0% { opacity: 0; transform: scale(.6); }
+  65% { opacity: 1; transform: scale(1.1); }
+  100% { opacity: 1; transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .operating-checks li.r { opacity: 1; transform: none; }
+  .operating-checks li.r.is-in { animation: none; }
+}
+.operating-seamless { margin: 12px 0 0; color: var(--on-bone-muted); font-size: 13px; text-align: center; }
+.operating-advice strong { color: var(--ink); font-family: var(--display); font-size: 1.15em; font-weight: 600; }
+
+@media (prefers-reduced-motion: reduce) { .operating-bridge::after { transform: scaleX(1); transition: none; } .operating-card::after { transition: none; } .operating-flow-dot { display: none; } .coverage.in-view .operating-card.entity { animation: none; } }
+@media (max-width: 680px) {
+  .operating-intro { text-align: left; }
+  .operating-path { grid-template-columns: minmax(0, 1fr); gap: 14px; }
+  .operating-card { min-height: 0; }
+  .operating-bridge { min-height: 82px; }
+  .operating-bridge::before, .operating-bridge::after { top: -18px; bottom: -18px; left: 50%; right: auto; width: 1px; height: auto; }
+  .operating-bridge::after { width: 2px; transform: scaleY(0); transform-origin: top; }
+  .coverage.in-view .operating-bridge::after { transform: scaleY(1); }
+  .operating-bridge span::after { content: none; }
+  .operating-flow-dot { top: -18px; left: 50%; transform: translateX(-50%); }
+  .coverage.in-view .operating-flow-dot { animation-name: operatingFlowDown; }
+}
+@keyframes operatingFlowDown {
+  0% { top: -18px; opacity: 0; }
+  12%, 82% { opacity: 1; }
+  100% { top: calc(100% + 8px); opacity: 0; }
+}
+
+/* OPERATING MODEL — action buttons */
+.operating-actions { display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-top: 26px; }
+.operating-btn { display: inline-flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 6px; font-family: var(--body); font-size: 15px; font-weight: 700; text-decoration: none; transition: transform .3s var(--out), box-shadow .3s var(--ease), background .25s var(--ease); }
+.operating-btn.ghost { background: #ffffff; color: #0f2744; border: 1px solid #cbd5e1; }
+.operating-btn.ghost:hover { background: #f1f5f9; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(5, 45, 76, .10); }
+.operating-btn.solid { background: #0369a1; color: #ffffff; border: 1px solid #0369a1; }
+.operating-btn.solid:hover { background: #0a5289; transform: translateY(-2px); box-shadow: 0 8px 18px rgba(5, 45, 76, .18); }
     </style>
     <link rel="stylesheet" href="footer.css%3Fv=20261116.css">
     <link rel="alternate" type="text/markdown" href="llms.txt" title="LLM Context Documentation">
@@ -2903,9 +3199,9 @@ footer span { max-width: 64ch; }
       <section class="eu-overview section-animate lit" id="global-india-overview">
         <div class="wrap eu-hero-grid">
           <div>
-            <p class="eyebrow">Global Desk · India Operations</p>
-            <h1 data-split>Your Global Desk for India. Dedicated Teams Run with Local Accountability.</h1>
-            <p class="lede">A dedicated delivery team in India, paired with an international account lead who owns your scoping, contracting, escalations and reviews — in your time zone, in your language.</p>
+            <p class="eyebrow">Global Desk · Basel &amp; Bengaluru</p>
+            <h1 data-split>Your Direct Global Corridor to Seamless India Operations</h1>
+            <p class="lede">Headquartered in Bengaluru with an active European Liaison Desk in Basel, Switzerland, Jobman Global bridges international boardroom expectations with on-ground statutory, talent, and operational execution across all 28 States and 8 Union Territories of India.</p>
           </div>
           <div class="eu-live-clock" id="eu-live-clock" aria-label="Live comparison of global hub time and India 15-hour delivery window">
             <!-- 15-Hour Staggered Delivery Badge -->
@@ -2950,23 +3246,118 @@ footer span { max-width: 64ch; }
                     <span class="v" id="eu-live-window">—</span>
                   </div>
                 </div>
-                <p class="overlap-line" id="eu-live-summary">Detecting your timezone…</p>
               </div>
             </div>
-          </div><div class="wrap eu-hero-stats" role="group" aria-label="EU India operating model">
-          <span><strong>Basel</strong>Your point of contact</span>
-          <span><strong>Bengaluru HQ</strong>Delivery across India</span>
-          <span><strong>TEPA</strong>The timely reason, cited</span>
+            <p class="overlap-line" id="eu-live-summary">Detecting your timezone…</p>
+          </div>
+        </div>
+        <div class="wrap eu-hero-stats" role="group" aria-label="EU India operating model">
+          <span><strong>Global Reach</strong>Supporting companies worldwide</span>
+          <span><strong>Bengaluru HQ</strong>India-based execution</span>
+          <span><strong>Time-Zone Advantage</strong>Extended support across global business hours</span>
+          <span><strong>Basel Contact</strong>Dedicated access for European clients</span>
+        </div>
+      </section>
+
+      <section class="eu-section section-animate dual-hub" id="dual-hub">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow" style="color:var(--vermilion); font-weight:700; letter-spacing:0.16em;">The Dual-Hub Governance Model</p>
+            <div>
+              <h2 data-split>How time zones, governance and communication stay seamless.</h2>
+            </div>
+          </div>
+          <div class="dual-hub-grid">
+            <article class="dual-hub-card spot">
+              <span class="dual-hub-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
+              <h3>Basel Europe Desk</h3>
+              <p class="dual-hub-sub">Switzerland (CET / GMT Aligned)</p>
+              <p>Direct stakeholder alignment, European time-zone accessibility, initial scoping, and transparent governance reporting for DACH, EU, and UK leadership.</p>
+            </article>
+            <article class="dual-hub-card spot">
+              <span class="dual-hub-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></span>
+              <h3>15-Hour Delivery Window</h3>
+              <p class="dual-hub-sub">08:00&ndash;23:00 IST Staggered Shifts</p>
+              <p>Dedicated Indian operational teams providing real-time overlap across APAC, Middle East, European, and North American business hours.</p>
+            </article>
+            <article class="dual-hub-card spot">
+              <span class="dual-hub-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21V7l8-4 8 4v14"/><path d="M8 11h2m4 0h2M8 15h2m4 0h2M10 21v-4h4v4"/></svg></span>
+              <h3>Bengaluru Headquarters</h3>
+              <p class="dual-hub-sub">All 28 States &amp; 8 Union Territories</p>
+              <p>Central command center orchestrating EOR, entity incorporation, statutory filings, payroll, finance, and workplace operations nationwide.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="eu-section section-animate" id="the-edge" style="background:#f8fafc; padding:clamp(44px, 4.5vw, 68px) 0; border-bottom:1px solid #e2e8f0;">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow" style="color:var(--vermilion); font-weight:700; letter-spacing:0.16em;">The Edge</p>
+            <div>
+              <h2 data-split>One coordinated point of access to India.</h2>
+              <p class="lede" style="color:#334155; font-size:17.5px; line-height:1.6; max-width:none; margin:0;">Our Global Business Desk gives international companies a coordinated point of access to Jobman Global&rsquo;s India market-entry and operational capabilities. From our headquarters in Bengaluru, we support requirements across India. European clients also benefit from a dedicated point of contact in Basel, Switzerland, providing regional accessibility while our India team manages local execution.</p>
+            </div>
+          </div>
+          <div style="margin-top:32px; border:1px solid #cbd5e1; border-radius:10px; overflow:hidden; background:#ffffff; box-shadow:0 8px 24px rgba(5,45,76,0.06);">
+            <table style="width:100%; border-collapse:collapse; text-align:left; font-size:15px;">
+              <thead>
+                <tr style="background:#052d4c; color:#ffffff;">
+                  <th style="padding:18px 24px; font-weight:700; width:36%; font-size:15px; letter-spacing:0.02em;">Global Business Desk advantage</th>
+                  <th style="padding:18px 24px; font-weight:700; font-size:15px; letter-spacing:0.02em;">What it means for clients</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:18px 24px; font-weight:700; color:#052d4c; background:#f8fafc; vertical-align:top;">International accessibility</td>
+                  <td style="padding:18px 24px; color:#334155; line-height:1.65;">Clear coordination for companies across global markets.</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:18px 24px; font-weight:700; color:#052d4c; background:#f8fafc; vertical-align:top;">India-based execution</td>
+                  <td style="padding:18px 24px; color:#334155; line-height:1.65;">On-ground delivery supported by local expertise.</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:18px 24px; font-weight:700; color:#052d4c; background:#f8fafc; vertical-align:top;">European point of contact</td>
+                  <td style="padding:18px 24px; color:#334155; line-height:1.65;">Added accessibility for European companies through our Basel desk.</td>
+                </tr>
+                <tr style="border-bottom:1px solid #e2e8f0;">
+                  <td style="padding:18px 24px; font-weight:700; color:#052d4c; background:#f8fafc; vertical-align:top;">Time-zone continuity</td>
+                  <td style="padding:18px 24px; color:#334155; line-height:1.65;">Improved coordination across European, Middle Eastern, Asian and North American working hours.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="edge-note">
+            <span class="edge-note-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8h.01M11 12h1v4h1"/></svg></span>
+            <p><strong>Our European advantage &ndash;</strong> For European businesses, our Switzerland-based partner offers an additional regional point of contact for communication, planning and coordination. Your service delivery remains anchored in India. This is a convenience for European clients, not a limitation on the markets we serve.</p>
+          </div>
+
+          <div class="edge-panel">
+            <div class="edge-panel-copy">
+              <p class="edge-panel-kicker">A European advantage within a global capability</p>
+              <h3>Our Basel presence is an additional advantage for European clients, not a boundary around whom we serve.</h3>
+              <p>European companies can engage with a regional point of contact who understands both international expectations and the practical realities of establishing operations in India. Clients from every other region receive the same India-focused advisory, execution standards and access to Jobman Global&rsquo;s complete service ecosystem.</p>
+            </div>
+            <aside class="edge-profile" aria-label="European point of contact">
+              <figure class="edge-profile-photo"><img src="team-photos/stephan-buchli.jpg" alt="Stephan Buchli, European point of contact for Jobman Global" loading="lazy"></figure>
+              <div class="edge-profile-body">
+                <p class="edge-profile-role">European point of contact</p>
+                <h4>Stephan Buchli</h4>
+                <p>Based in Basel, Stephan serves as Jobman Global&rsquo;s primary point of contact for European companies. Drawing on his experience as a non-resident Indian, he helps international decision-makers understand what to expect when entering India and connects their strategic requirements with our India-based execution team.</p>
+                <a class="edge-profile-link" href="https://www.linkedin.com/in/stephan-buchli-b6574a/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn &rarr;</a>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
 
       <section class="eu-section section-animate" id="why-india-now" style="background:#ffffff; padding:clamp(44px, 4.5vw, 68px) 0;">
         <div class="wrap">
-          <div class="section-heading center">
+          <div class="section-heading">
             <p class="eyebrow" style="color:var(--vermilion); font-weight:700; letter-spacing:0.16em;">Why Now</p>
             <div>
               <h2 data-split style="color:#052d4c; font-size:clamp(26px, 3vw, 36px); font-weight:700; margin:0 0 12px; line-height:1.25;">India: The Engine for 21st-Century Enterprise Scale.</h2>
-              <p class="lede" style="color:#334155; font-size:17.5px; line-height:1.6; max-width:68ch; margin:0 auto;">India has evolved into the indispensable destination for global capability centers, technological leadership, and executive operations.</p>
+              <p class="lede" style="color:#334155; font-size:17.5px; line-height:1.6; max-width:none; margin:0;">India has evolved into the indispensable destination for global capability centers, technological leadership, and executive operations.</p>
             </div>
           </div>
 
@@ -3005,180 +3396,7 @@ footer span { max-width: 64ch; }
       
       
       <!-- Image 3 Model: Entering India? Start with the right model (Restored to Global Desk) -->
-      <section class="coverage section-animate" id="operating-models-global" style="background:#f8fafc; padding:clamp(44px, 4.5vw, 68px) 0; border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
-        <div class="wrap">
-          <div class="section-heading center">
-            <p class="eyebrow" style="color:var(--vermilion,#ff5722); font-weight:700; letter-spacing:0.16em;">ENTERING INDIA? START WITH THE RIGHT MODEL.</p>
-          </div>
-          <div class="operating-story">
-            <div class="operating-path" aria-label="A seamless path from Employer of Record to an Indian legal entity">
-              <article class="operating-card eor">
-                <span class="operating-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.6 2.8 8.2 7 10 4.2-1.8 7-5.4 7-10V6z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m9 12 2 2 4-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
-                <h3>Employer of Record (EOR)</h3>
-                <p>Build an India-based team without immediately incorporating a local company. Jobman supports employment administration, payroll and statutory requirements while you direct the team's day-to-day work.</p>
-              </article>
-              <div class="operating-bridge" aria-hidden="true"><i class="operating-flow-dot"></i><span>Seamless transition</span></div>
-              <article class="operating-card entity">
-                <span class="operating-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14M8 10h2m4 0h2M8 14h2m4 0h2M8 18h2m4 0h2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
-                <h3>Legal Entity Setup</h3>
-                <p>Establish your own India presence with end-to-end support for structuring, incorporation, tax registrations, HR foundations, banking, and recurring compliance.</p>
-              </article>
-            </div>
-            <div class="operating-table-cta-row" style="display:flex; justify-content:center; gap:16px; flex-wrap:wrap; margin-top:24px;">
-              <a class="operating-table-cta" href="resources.html#provider-table">Compare EOR and Legal Entity <b class="arw">&rarr;</b></a>
-              <a class="operating-table-cta" href="contact.html#contact" style="background:var(--vermilion,#ff5722); color:#fff; border-color:var(--vermilion,#ff5722);">Discuss Your India Plans <b class="arw">&rarr;</b></a>
-            </div>
-            <p class="operating-advice"><strong>Not sure which route is right?</strong> We help compare control, cost, speed, operational needs and long-term plans before recommending a route. Transition smoothly from EOR to a wholly owned entity as your India team expands.</p>
-          </div>
-        </div>
-      </section>
     
-<section class="eu-section section-animate lit" id="global-growth-corridors" style="background:#f8fafc; padding-top:clamp(44px, 4.5vw, 70px); padding-bottom:clamp(44px, 4.5vw, 70px); border-top:1px solid #e2e8f0; border-bottom:1px solid #e2e8f0;">
-        <div class="wrap">
-          <div class="section-heading">
-            <p class="eyebrow" style="color:var(--vermilion); font-weight:700; letter-spacing:0.16em;">Global Access · India-Based Execution</p>
-            <div>
-              <h2 data-split style="color:#052d4c; font-size:clamp(26px, 3vw, 36px); font-weight:700; margin:0 0 12px; line-height:1.25;">Four Strategic Growth Corridors Bridging Key Markets to India</h2>
-              <p class="lede" style="color:#334155; font-size:17.5px; line-height:1.6; max-width:68ch;">While European enterprises benefit from our anchored Swiss presence in Basel, Jobman Global facilitates structured, compliant cross-border market entry, EOR hiring, and GCC delivery across four primary global corridors.</p>
-            </div>
-          </div>
-
-          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:24px; margin-top:32px;">
-            <!-- Corridor 1: EMEA -->
-            <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-              <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-                  <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#eff6ff; color:#1d4ed8; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">EMEA Corridor</span>
-                  <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">Basel Anchor</span>
-                </div>
-                <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Europe &amp; Middle East</h3>
-                <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Anchored by Stephan Buchli in Basel, Switzerland, leveraging the landmark <strong>India–EFTA TEPA</strong> and UAE CEPA for zero-duty industrial access and seamless Swiss-Indian collaboration.</p>
-                
-                <!-- Verified Data Chips -->
-                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$100B TEPA Commitment</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">1M Direct Jobs</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$100.06B UAE CEPA</span>
-                </div>
-
-                <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
-                  <li>Dedicated European advisory contact (Basel)</li>
-                  <li>100% full-day synchronous working overlap (15h shift)</li>
-                  <li>TEPA investment &amp; services compliance</li>
-                </ul>
-              </div>
-              <a href="global-india.html#how-it-works" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">How Europe–India Works &rarr;</a>
-            </div>
-
-            <!-- Corridor 2: North America -->
-            <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-              <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-                  <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#fef2f2; color:#b91c1c; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">North America</span>
-                  <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">$239.6B Bilateral</span>
-                </div>
-                <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">US &amp; Canada Tech Scale</h3>
-                <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Supporting fast-scaling US tech firms, healthcare innovators, and enterprise SaaS companies with rapid 5–10 day EOR team deployments and captive engineering centers.</p>
-                
-                <!-- Verified Data Chips -->
-                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$239.6B Goods &amp; Services</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$90.4B Services Trade</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">+12.1% YoY Expansion</span>
-                </div>
-
-                <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
-                  <li>3.5h live morning sync (EST) for standups</li>
-                  <li>24/7 Follow-the-Sun engineering sprints</li>
-                  <li>Turnkey captive engineering GCCs</li>
-                </ul>
-              </div>
-              <a href="staffing-eor.html#staffing-eor-overview" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Explore EOR Deployment &rarr;</a>
-            </div>
-
-            <!-- Corridor 3: APAC -->
-            <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-              <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-                  <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#ecfdf5; color:#047857; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">APAC Corridor</span>
-                  <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">ECTA &amp; ASEAN</span>
-                </div>
-                <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Australia, Singapore &amp; Asia</h3>
-                <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Strengthened by the <strong>India–Australia ECTA</strong> and ASEAN bilateral agreements. We assist regional APAC HQs in Singapore, Sydney, and Tokyo with dual-shore talent architecture.</p>
-                
-                <!-- Verified Data Chips -->
-                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">100% Duty-Free Tariff Lines</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">135 Service Sub-Sectors</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$24.1B Trade</span>
-                </div>
-
-                <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
-                  <li>7.5h aligned synchronous working window</li>
-                  <li>ECTA preferential market access &amp; mobility</li>
-                  <li>Singapore holding company &amp; FDI structuring</li>
-                </ul>
-              </div>
-              <a href="marketing-advisory.html#market-entry-advisory" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Explore Entity Advisory &rarr;</a>
-            </div>
-
-            <!-- Corridor 4: Growth Markets -->
-            <div style="background:#ffffff; border:1px solid #cbd5e1; border-radius:10px; padding:28px 24px; box-shadow:0 8px 24px rgba(5,45,76,0.06); display:flex; flex-direction:column; justify-content:space-between;">
-              <div>
-                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-                  <span style="display:inline-block; padding:4px 10px; border-radius:4px; background:#faf5ff; color:#7e22ce; font-family:var(--mono); font-size:11px; font-weight:700; letter-spacing:0.08em; text-transform:uppercase;">Growth Markets</span>
-                  <span style="font-size:12px; color:#64748b; font-family:var(--mono); font-weight:600;">DTAA Treaties</span>
-                </div>
-                <h3 style="color:#052d4c; font-size:19px; margin:0 0 10px; font-weight:700;">Global South &amp; Emerging Hubs</h3>
-                <p style="font-size:14px; line-height:1.65; color:#475569; margin:0 0 14px;">Cross-border structuring for enterprises entering India's massive domestic consumer market from Latin America, Africa, and Central Asia via optimized Double Taxation Avoidance Agreements (DTAA).</p>
-                
-                <!-- Verified Data Chips -->
-                <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:16px;">
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">43 LatAm &amp; Caribbean Nations</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">$39.19B Bilateral Trade</span>
-                  <span style="padding:3px 8px; border-radius:4px; background:#f1f5f9; color:#0f172a; font-family:var(--mono); font-size:11px; font-weight:700;">Mauritius / DTAA Routing</span>
-                </div>
-
-                <ul style="margin:0 0 16px; padding-left:18px; font-size:13px; line-height:1.6; color:#475569;">
-                  <li>DTAA &amp; cross-border tax advisory</li>
-                  <li>Import-Export (IEC) &amp; customs governance</li>
-                  <li>Consumer market testing via EOR models</li>
-                </ul>
-              </div>
-              <a href="contact.html#contact" style="color:var(--vermilion); font-weight:700; font-size:13.5px; display:inline-flex; align-items:center; gap:4px;">Discuss Corridor Scoping &rarr;</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-<section class="eu-section alt section-animate" id="how-it-works">
-        <div class="wrap eu-twohub">
-          <div class="eu-route-box compact" aria-label="Two-hub operating model">
-            <svg viewBox="0 0 460 300" role="img" aria-label="Two-hub model">
-              <g class="eu-map-lines">
-                <path d="M-10 90 C 120 60, 250 110, 360 80 S 470 60, 470 90"/>
-                <path d="M-10 160 C 130 190, 260 140, 360 170 S 470 190, 470 160"/>
-              </g>
-              <path id="eu-route-model" class="eu-route" d="M120 110 C 230 40, 320 70, 350 190"/>
-              <circle class="eu-moving-dot" r="4"><animateMotion dur="5.5s" repeatCount="indefinite" rotate="auto"><mpath href="#eu-route-model"/></animateMotion></circle>
-              <circle class="eu-city eu-city-eu" cx="120" cy="110" r="7"/><circle class="eu-city-pulse" cx="120" cy="110" r="15"/>
-              <text class="eu-city-name" x="120" y="88" text-anchor="middle">Basel</text>
-              <text class="eu-city-role" x="120" y="135" text-anchor="middle">Your account lead</text>
-              <circle class="eu-city eu-city-in" cx="350" cy="190" r="7"/><circle class="eu-city-pulse delay" cx="350" cy="190" r="15"/>
-              <text class="eu-city-name" x="350" y="168" text-anchor="middle">Bengaluru</text>
-              <text class="eu-city-role" x="350" y="214" text-anchor="middle">Your dedicated team</text>
-            </svg>
-            <div class="eu-timezones"><span>CET</span><i></i><span>IST</span></div>
-          </div>
-          <div>
-            <p class="eyebrow">The Two-Person Model</p>
-            <h2 data-split>One phone call in Europe. One accountable team in India.</h2>
-            <p class="lede"><strong>In Europe —</strong> your Switzerland-based lead is the actual contract owner and escalation point: scoping, contracting and quarterly reviews. A person, not a ticket queue.</p>
-            <p class="lede"><strong>In India —</strong> we recruit, employ, train and manage a dedicated team — not shared or rotating staff — with proactive weekly flagging built into how they work.</p>
-          </div>
-        </div>
-      </section>
-
       <section class="eu-section section-animate" id="global-concerns">
         <div class="wrap">
           <div class="section-heading">
@@ -3202,16 +3420,19 @@ footer span { max-width: 64ch; }
             <p class="eyebrow">The Illustrative Case</p>
             <div><h2 data-split>The number every buyer actually wants to see.</h2><p class="lede">One HR Administrator role in Switzerland versus a Jobman-managed equivalent in India. Indicative, built on public salary benchmarks, and replaced by a real quote once scope is defined.</p></div>
           </div>
-          <div class="eu-savings">
-            <div class="head"><span>Cost line</span><span>Switzerland (in-house)</span><span>India (Jobman-managed)</span></div>
-            <div><span>Base salary / cost</span><span>CHF 65,000 / yr</span><span>CHF 24,000–28,000 / yr</span></div>
-            <div><span>Employer social charges &amp; pension (~25–28%)</span><span>+ CHF 16,250–18,200</span><span>Additional</span></div>
-            <div><span>Recruitment, onboarding, management overhead</span><span>Additional, often underestimated</span><span>Jobman managed-service fee additional</span></div>
-            <div class="total"><span>Annual cost before India statutory costs and managed-service fee</span><span>CHF 81,250–83,200</span><span>CHF 24,000–28,000</span></div>
-            <div class="total"><span>Indicative annual saving per role</span><span></span><span>CHF 53,250–59,200 · ≈ 65.5–71.2%</span></div>
+          <div class="eu-savings markets">
+            <div class="head"><span>Market</span><span>Base salary / cost</span><span>Social securities / tax / other employer costs</span><span>Estimated total in-house annual cost</span><span>India Jobman-managed base cost*</span><span>Indicative annual saving</span></div>
+            <div><span>Switzerland</span><span>CHF 65,000</span><span>CHF 16,250–18,200<small>~25–28%</small></span><span class="em">CHF 81,250–83,200</span><span class="em">CHF 24,000–28,000</span><span class="win">CHF 53,250–59,200<small>~65.5–71.2%</small></span></div>
+            <div><span>United States</span><span>USD 87,000–107,000</span><span>USD 15,700–26,800<small>~18–25%</small></span><span class="em">USD 102,700–133,800</span><span class="em">USD 30,000–35,000</span><span class="win">USD 67,700–103,800<small>~66–78%</small></span></div>
+            <div><span>Singapore</span><span>SGD 96,000–144,000</span><span>SGD 10,600–24,500<small>~11–17%</small></span><span class="em">SGD 106,600–168,500</span><span class="em">SGD 40,000–47,000</span><span class="win">SGD 59,600–128,500<small>~56–76%</small></span></div>
+            <div><span>UAE / Middle East</span><span>AED 300,000–480,000</span><span>AED 24,000–72,000<small>~8–15%</small></span><span class="em">AED 324,000–552,000</span><span class="em">AED 110,000–129,000</span><span class="win">AED 195,000–442,000<small>~60–80%</small></span></div>
+            <div><span>United Kingdom</span><span>GBP 50,000–65,000</span><span>GBP 7,500–11,000<small>~15–17%</small></span><span class="em">GBP 57,500–76,000</span><span class="em">GBP 24,000–28,000</span><span class="win">GBP 29,500–52,000<small>~51–68%</small></span></div>
+            <div><span>Germany</span><span>EUR 55,000–70,000</span><span>EUR 11,000–16,100<small>~20–23%</small></span><span class="em">EUR 66,000–86,100</span><span class="em">EUR 26,000–30,000</span><span class="win">EUR 36,000–60,100<small>~55–70%</small></span></div>
+            <div><span>Australia</span><span>AUD 100,000–125,000</span><span>AUD 13,000–22,500<small>~13–18%</small></span><span class="em">AUD 113,000–147,500</span><span class="em">AUD 46,000–54,000</span><span class="win">AUD 59,000–101,500<small>~52–69%</small></span></div>
+            <div><span>Canada</span><span>CAD 85,000–110,000</span><span>CAD 6,800–16,500<small>~8–15%</small></span><span class="em">CAD 91,800–126,500</span><span class="em">CAD 42,000–49,000</span><span class="win">CAD 42,800–84,500<small>~47–67%</small></span></div>
           </div>
           <p class="eu-note">The difference remains significant and highlights the potential as the team grows.</p>
-          <p class="eu-savings-footnote">*Indian statutory costs and Jobman’s managed-service fee will get added before calculating the final saving.</p>
+          <p class="eu-savings-footnote"><strong>Disclaimer:</strong> These comparisons are illustrative benchmarks only. Actual costs and savings depend on the role, seniority, location, exchange rate, benefits, statutory obligations and agreed Jobman service scope. A role-specific cost comparison should be prepared before presenting a commercial proposal.</p>
         </div>
       </section>
 
@@ -3230,7 +3451,7 @@ footer span { max-width: 64ch; }
       <div class="wrap">
         <div class="section-head" style="max-width: 820px; margin-bottom: 36px;">
           <p class="company-kicker" style="color: #0369a1; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; margin-bottom: 8px;">Why Now</p>
-          <h2 style="font-family: 'Source Serif 4', serif; font-size: clamp(1.8rem, 3.2vw, 2.6rem); color: #0f172a; line-height: 1.25; margin-bottom: 12px;">India: The Engine for 21st-Century Enterprise Scale.</h2>
+          <h2>India: The Engine for 21st-Century Enterprise Scale.</h2>
           <p style="color: #475569; font-size: 1.05rem; line-height: 1.6;">Global enterprises are anchoring core product engineering, leadership, and operational workflows across India's unmatched talent and technology corridors.</p>
         </div>
 
@@ -3272,84 +3493,48 @@ footer span { max-width: 64ch; }
         </div>
 
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 10px; padding: 18px 24px;">
-          <p style="margin: 0; color: #1e40af; font-weight: 500; font-size: 0.98rem;">Looking for detailed regional metrics across Tier-1 and Tier-2 growth clusters?</p>
+          <p style="margin: 0; color: #1e40af; font-weight: 500; font-size: 0.98rem;">Check how India is the most preferred growth corridor</p>
           <a href="resources.html#growth-corridors" class="button button-primary" style="display: inline-flex; align-items: center; gap: 8px; background: #0369a1; color: #ffffff; padding: 10px 20px; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.92rem;">
-            Explore Global Growth Corridors &rarr;
+            See the Growth Corridors &rarr;
           </a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="coverage" style="background: #f0f7ff; padding: clamp(48px, 6vw, 84px) 0;">
-      <div class="wrap">
-        <div class="section-head text-center" style="text-align: center; max-width: 800px; margin: 0 auto 40px auto;">
-          <p class="company-kicker" style="color: #0369a1; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.82rem; margin-bottom: 8px;">— ENTERING INDIA? START WITH THE RIGHT MODEL. —</p>
-          <h2 style="font-family: 'Source Serif 4', serif; font-size: clamp(1.8rem, 3.2vw, 2.5rem); color: #0f172a; line-height: 1.25;">Choose Your Operational Footprint</h2>
-        </div>
-
-        <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 24px; align-items: center; max-width: 1040px; margin: 0 auto 36px auto;">
-          <!-- Card 1: EOR -->
-          <div style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: 12px; padding: 32px 28px; box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05); position: relative;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px;">
-              <h3 style="font-family: 'Source Serif 4', serif; font-size: 1.45rem; color: #0f172a; margin: 0;">Employer of Record (EOR)</h3>
-              <div style="width: 40px; height: 40px; border-radius: 50%; background: #e0f2fe; display: flex; align-items: center; justify-content: center; color: #0284c7;">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
-              </div>
+      <section class="coverage section-animate" id="coverage">
+        <div class="wrap">
+          <div class="section-heading center">
+            <p class="eyebrow">Entering India? Start with the right model.</p>
+          </div>
+          <div class="operating-story">
+            <div class="operating-path" aria-label="A seamless path from Employer of Record to an Indian legal entity">
+              <article class="operating-card eor">
+                <span class="operating-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 5 6v5c0 4.6 2.8 8.2 7 10 4.2-1.8 7-5.4 7-10V6z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m9 12 2 2 4-5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+                <h3>EOR</h3>
+                <p>Assess the Indian market first before absolute legal presence or if it is a short-term/small requirement requiring small team.</p>
+              </article>
+              <div class="operating-bridge" aria-hidden="true"><i class="operating-flow-dot"></i><span>Seamless transition</span></div>
+              <article class="operating-card entity">
+                <span class="operating-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 21V7l8-4 8 4v14M8 10h2m4 0h2M8 14h2m4 0h2M8 18h2m4 0h2" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></span>
+                <h3>Legal Entity</h3>
+                <p>Establish if you have thoroughly assessed your business plan and are confident about the legal entry in India.</p>
+              </article>
             </div>
-            <p style="color: #475569; font-size: 0.95rem; line-height: 1.6; margin: 0;">
-              Build an India-based team without immediately incorporating a local company. Jobman supports employment administration, payroll and statutory requirements while you direct the team's day-to-day work.
-            </p>
-          </div>
-
-          <!-- Bridge / Flow Connector -->
-          <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; position: relative;">
-            <div style="height: 2px; width: 60px; background: #94a3b8; position: absolute; top: 50%; z-index: 1;"></div>
-            <span style="background: #f0f7ff; border: 1px solid #94a3b8; border-radius: 20px; padding: 4px 10px; font-size: 0.68rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.06em; position: relative; z-index: 2; white-space: nowrap;">
-              SEAMLESS TRANSITION
-            </span>
-          </div>
-
-          <!-- Card 2: Legal Entity Setup -->
-          <div style="background: #0f2744; color: #ffffff; border-radius: 12px; padding: 32px 28px; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.15); position: relative;">
-            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 14px;">
-              <h3 style="font-family: 'Source Serif 4', serif; font-size: 1.45rem; color: #ffffff; margin: 0;">Legal Entity Setup</h3>
-              <div style="width: 40px; height: 40px; border-radius: 50%; background: rgba(255, 255, 255, 0.1); display: flex; align-items: center; justify-content: center; color: #38bdf8;">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line><line x1="15" y1="22" x2="15" y2="2"></line></svg>
-              </div>
+            <div class="operating-actions">
+              <a class="operating-btn ghost" href="resources.html#provider-table">Compare EOR and Legal Entity &rarr;</a>
+              <a class="operating-btn solid" href="contact.html#contact">Discuss Your India Plans &rarr;</a>
             </div>
-            <p style="color: #cbd5e1; font-size: 0.95rem; line-height: 1.6; margin: 0;">
-              Establish your own India presence with end-to-end support for structuring, incorporation, tax registrations, HR foundations, banking, and recurring compliance.
-            </p>
+            <p class="operating-advice"><strong>Not sure which you need?</strong> Most companies start on EOR to assess the market as it involves nominal obligation, then incorporate once the team and revenue justify an entity. We manage both models seamlessly — no vendor changes, no operational disruption, easy transition and handover as needed.</p>
+          </div>
+
+          <div class="cxo-cta">
+            <p>Wherever you are based, connect with our India team or European point of contact.</p>
+            <a class="cxo-cta-btn" href="contact.html#contact"><span class="cxo-label">Start Your India Conversation</span> <span class="cxo-arrow" aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
-
-        <!-- Action Row -->
-        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap; margin-bottom: 32px;">
-          <a href="resources.html#provider-table" class="button" style="display: inline-flex; align-items: center; gap: 8px; background: #ffffff; color: #0f2744; border: 1px solid #cbd5e1; padding: 12px 24px; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.92rem;">
-            Compare EOR and Legal Entity &rarr;
-          </a>
-          <a href="contact.html#contact" class="button" style="display: inline-flex; align-items: center; gap: 8px; background: #0369a1; color: #ffffff; padding: 12px 24px; border-radius: 6px; font-weight: 600; text-decoration: none; font-size: 0.92rem;">
-            Discuss Your India Plans &rarr;
-          </a>
-        </div>
-
-        <!-- Bottom Advice Banner -->
-        <div style="background: #ffffff; border-left: 4px solid #0369a1; border-radius: 6px; padding: 18px 24px; max-width: 1040px; margin: 0 auto; box-shadow: 0 2px 8px rgba(15, 23, 42, 0.04);">
-          <p style="margin: 0; color: #334155; font-size: 0.95rem; line-height: 1.6;">
-            <strong style="color: #0f2744;">Not sure which route is right?</strong> We help compare control, cost, speed, operational needs and long-term plans before recommending a route. Transition smoothly from EOR to a wholly owned entity as your India team expands.
-          </p>
-        </div>
-      </div>
-    </section>
+      </section>
 
     <footer class="site-footer" id="site-footer">
-      <div class="footer-cta-banner">
-        <div class="footer-shell" style="display:flex; justify-content:space-between; align-items:center; width:100%; flex-wrap:wrap; gap:16px;">
-          <p>Planning to enter India or streamline domestic operations? Discuss your team size and get indicative commercials.</p>
-          <a class="cta-btn" href="contact.html#contact">Book a 15-Minute Scoping Call &rarr;</a>
-        </div>
-      </div>
-
       <div class="footer-directory">
         <div class="footer-shell footer-directory-grid cta-directory">
           <section class="footer-cta-brand">
@@ -3401,7 +3586,7 @@ footer span { max-width: 64ch; }
               <a href="resources.html#client-scenarios">Real-World Scenarios</a>
               <a href="resources.html#india-glossary">India Business Glossary</a>
               <a href="resources.html#industry-insights">Industry Research</a>
-            <a href="global-india.html#global-growth-corridors">Global Corridors</a>
+            <a href="resources.html#growth-corridors">Global Corridors</a>
             </nav>
           </section>
         </div>
