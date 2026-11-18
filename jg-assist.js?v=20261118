@@ -85,7 +85,7 @@
     {
       keywords: ["contact", "email", "phone", "address", "reach", "talk", "scoping", "schedule", "call", "whatsapp"],
       question: "How can I contact Jobman Global?",
-      answer: "You can connect with us directly:<br><br>&bull; <strong>Bengaluru HQ:</strong> +91 97414 26441 | info@jobmanglobal.com<br>&bull; <strong>Europe Desk (Basel):</strong> +41 79 792 52 00 | stephan.buchli@jobmanglobal.com<br>&bull; <strong>WhatsApp:</strong> <a href='https://wa.me/919741426441' target='_blank'>Chat on WhatsApp &rarr;</a><br>&bull; <strong>Online Form:</strong> <a href='contact.html#contact'>Book a 15-Minute Scoping Call &rarr;</a>"
+      answer: "You can connect with us directly:<br><br>&bull; <strong>Bengaluru HQ:</strong> +91 97414 26441 | info@jobmanglobal.com<br>&bull; <strong>Europe Desk (Basel):</strong> +41 79 792 52 00 | info.europe@jobmanglobal.com<br>&bull; <strong>WhatsApp:</strong> <a href='https://wa.me/919741426441' target='_blank'>Chat on WhatsApp &rarr;</a><br>&bull; <strong>Online Form:</strong> <a href='contact.html#contact'>Book a 15-Minute Scoping Call &rarr;</a>"
     }
   ];
 

@@ -167,7 +167,7 @@
             "FR",
             "EU"
           ],
-          "email": "stephan.buchli@jobmanglobal.com",
+          "email": "info.europe@jobmanglobal.com",
           "availableLanguage": [
             "English",
             "German",
@@ -1811,6 +1811,11 @@ section:not(.hero) { padding-block: var(--sec); }
 }
 
 section.company { padding-block: clamp(29px, 3.52vw, 48px); }
+.our-story { background: #ffffff; }
+.our-story .section-heading { margin-bottom: 0; }
+.our-story .section-heading .lede { max-width: none; margin: 14px 0 0; }
+.our-story .section-heading .lede:last-child strong { color: var(--ink); }
+#our-story { scroll-margin-top: 96px; }
 main > section:not(.company) { padding-block: clamp(31px, 3.87vw, 54px); }
 .company .section-heading { margin-bottom: clamp(16px, 2.11vw, 26px); }
 .company-grid {
@@ -1883,6 +1888,50 @@ main > section:not(.company) { padding-block: clamp(31px, 3.87vw, 54px); }
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -.02em;
+}
+/* Uniform section titles — match the card title style */
+main .section-heading h2,
+.leadership h2,
+.advisory h2,
+.our-story h2 {
+  color: #052d4c;
+  font-family: "Source Serif 4", serif;
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.02em;
+  margin-bottom: 12px;
+}
+.company-hero h1,
+.company-hero .section-heading h1 {
+  color: var(--on-ink);
+  font-family: "Source Serif 4", serif;
+  font-weight: 700 !important;
+  line-height: 1.15;
+  letter-spacing: -.02em;
+}
+.advisory h2,
+.advisory .section-heading h2 { color: var(--on-ink); }
+.leader-card h3,
+.advisory h3,
+.company-grid h3 {
+  color: #052d4c;
+  font-family: "Source Serif 4", serif;
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+.advisory .cxo-cta.advisory-cta {
+  margin-top: clamp(28px, 3.2vw, 44px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+}
+/* Red eyebrows (as on the home page) — every section except the hero */
+main section:not(.company-hero) .eyebrow,
+.advisory .eyebrow {
+  color: #d84315;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: .16em;
 }
 .company-grid h3::after {
   content: "";
@@ -2937,6 +2986,20 @@ footer span { max-width: 64ch; }
         </div>
       </section>
 
+      <section class="our-story section-animate" id="our-story">
+        <div class="wrap">
+          <div class="section-heading">
+            <p class="eyebrow">Our Story</p>
+            <div>
+              <h2 data-split>Built on a simple insight</h2>
+              <p class="lede">Jobman Global &mdash; founded in 2022 and incorporated in 2024 under the Indian Companies Act 2013 &mdash; was built on a direct operational reality: companies expanding or operating in India lose time, capital, and momentum when managing fragmented vendors across recruitment, payroll, legal structuring, and office facilities.</p>
+              <p class="lede">When each provider operates in isolation, statutory gaps open up and accountability dissolves. The result is confusion, delays and zero accountability. We set out to change that. We replace disconnected vendor handoffs with a unified operating partner accountable for outcomes across the entire corporate lifecycle.</p>
+              <p class="lede">When clients say, &ldquo;I wish someone could take care of this too&rdquo; &mdash; we aim to be the partner who already does.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="leadership section-animate" id="leadership-team">
         <div class="wrap">
           <div class="section-heading">
@@ -3002,11 +3065,6 @@ footer span { max-width: 64ch; }
                   <img class="leader-photo-top" src="team-photos/stephan-buchli.jpg" alt="Stephan Buchli, Partner for the Jobman Global European Desk" loading="lazy">
                 </figure>
               </section>
-          </div>
-
-          <div class="cxo-cta leader-cta">
-            <p>Discuss your India plans directly with an experienced advisor.</p>
-            <a class="cxo-cta-btn" href="contact.html#contact"><span class="cxo-label">Speak With Our Leadership Team</span> <span class="cxo-arrow" aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
       </section>
@@ -3086,6 +3144,11 @@ footer span { max-width: 64ch; }
               <p>Ex-CEO of the NIT Raipur Foundation for Innovation &amp; Entrepreneurship, and Ex-COO at Kalinga Incubation Foundation. Supported over 250 startups and handled government projects valued at over INR 100 Billion.</p>
               <ul class="advisory-tags"><li>Startups</li><li>Incubation</li></ul>
             </article>
+          </div>
+
+          <div class="cxo-cta advisory-cta">
+            <p>Discuss your India plans directly with an experienced advisor.</p>
+            <a class="cxo-cta-btn" href="contact.html#contact"><span class="cxo-label">Speak With Our Leadership Team</span> <span class="cxo-arrow" aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
       </section>
@@ -3191,7 +3254,7 @@ footer span { max-width: 64ch; }
             </div>
             <div class="footer-coord-body">
               <div class="footer-coord-contact">
-                <a class="footer-coord-wa" href="https://wa.me/41797925200" target="_blank" rel="noopener noreferrer" aria-label="Chat with Europe Desk on WhatsApp" title="Chat on WhatsApp" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;margin:0 6px 0 0;border-radius:50%;background:#25d366;color:#fff;vertical-align:middle;"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true" style="width:13px;height:13px;display:block;"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg></a><a href="tel:+41797925200">+41 79 792 52 00</a> &bull; <a href="https://jg.aryanservices.com/cdn-cgi/l/email-protection#88fbfcedf8e0e9e6a6eafdebe0e4e1c8e2e7eae5e9e6efe4e7eae9e4a6ebe7e5"><span class="__cf_email__" data-cfemail="6a191e0f1a020b0444081f090206032a000508070b040d0605080b0644090507">[email&#160;protected]</span></a>
+                <a class="footer-coord-wa" href="https://wa.me/41797925200" target="_blank" rel="noopener noreferrer" aria-label="Chat with Europe Desk on WhatsApp" title="Chat on WhatsApp" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;margin:0 6px 0 0;border-radius:50%;background:#25d366;color:#fff;vertical-align:middle;"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true" style="width:13px;height:13px;display:block;"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg></a><a href="tel:+41797925200">+41 79 792 52 00</a> &bull; <a href="mailto:info.europe@jobmanglobal.com">info.europe@jobmanglobal.com</a>
               </div>
             </div>
           </div>
