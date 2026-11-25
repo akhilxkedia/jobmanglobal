@@ -1,0 +1,261 @@
+(function () {
+  "use strict";
+
+  const KNOWLEDGE_BASE = [
+    {
+      keywords: ["jbmn", "jbmn associates", "cin", "legal entity", "company name", "registered office", "corporate identification", "who owns", "operating company"],
+      question: "What is the legal company behind Jobman Global?",
+      answer: "Jobman Global is operated by <strong>JBMN ASSOCIATES PRIVATE LIMITED</strong>.<br><br>&bull; <strong>Company Name:</strong> JBMN ASSOCIATES PRIVATE LIMITED<br>&bull; <strong>CIN:</strong> U78100KA2024PTC188225<br>&bull; <strong>Registered Address:</strong> C-101, 1st Floor, Sumadhura Shikharam, Seegehalli, Kannamangala, Bengaluru, Karnataka, India 560067.<br>&bull; <strong>Executive Hub:</strong> Pan-India delivery from Bengaluru HQ + Europe Desk in Basel, Switzerland."
+    },
+    {
+      keywords: ["15 hour", "15 hours", "work timing", "operating window", "working hours", "timing in india", "staggered", "shift", "two shift", "working window", "delivery window"],
+      question: "What is Jobman Global's 15-hour working window in India?",
+      answer: "Jobman Global operates an extended <strong>15-hour daily execution cadence from 08:00 to 23:00 IST</strong> through staggered dual-shift delivery.<br><br><strong>Global Overlap Benefits:</strong><br>&bull; <strong>Europe &amp; UK (CET/GMT):</strong> 100% full-day synchronous working overlap (9.0 hours).<br>&bull; <strong>US East Coast (EST):</strong> 3.5+ hours of live morning overlap (09:00–12:30 EST) for daily standups, plus overnight execution.<br>&bull; <strong>US West Coast (PST):</strong> Live morning handoff + 24/7 Follow-the-Sun overnight turnaround.<br>&bull; <strong>Singapore &amp; APAC (SGT):</strong> 7.5 hours of real-time daytime alignment.<br>&bull; <strong>Middle East (Dubai/GST):</strong> 100% full business day coverage (only 1.5h time difference)."
+    },
+    {
+      keywords: ["primary employer", "principal employer", "legal employer", "statutory liability", "who is employer", "co employment", "joint liability"],
+      question: "What is the difference between Primary Employer and Principal Employer in EOR?",
+      answer: "Under Indian labor laws and contract jurisprudence:<br><br>&bull; <strong>Jobman Global acts as the Primary Employer:</strong> We assume 100% legal and statutory liability, issuing employment contracts, running payroll, depositing PF/ESIC/PT taxes, and managing labor code compliance.<br>&bull; <strong>Your Company operates as the Principal Employer:</strong> You maintain complete operational control over day-to-day task assignments, sprint priorities, performance KPIs, and 100% intellectual property (IP) retention."
+    },
+    {
+      keywords: ["eor", "employer of record", "peo", "hire without entity", "without incorporating", "start without company"],
+      question: "Can a foreign company hire in India without incorporating?",
+      answer: "Yes! Through our <strong>Employer of Record (EOR)</strong> service, international businesses can legally employ and onboard team members in India in just <strong>5 to 10 business days</strong> without establishing an Indian legal entity.<br><br>Jobman acts as the Primary Employer of record, handling employment agreements, multi-state payroll, PF/ESIC/PT compliance, and insurance, while you direct their day-to-day work."
+    },
+    {
+      keywords: ["difference", "eor vs entity", "compare", "incorporate vs eor", "two ways", "two paths", "decision table"],
+      question: "What is the difference between EOR and setting up a Legal Entity?",
+      answer: "<strong>Employer of Record (EOR):</strong><br>&bull; Speed: Operational in 5–10 days.<br>&bull; Cost: Zero entity setup capital; pay-as-you-go service fee.<br>&bull; Risk: Low; Jobman absorbs employer statutory liabilities.<br>&bull; Best for: Market validation, 1–25 person teams, rapid hiring.<br><br><strong>Own Legal Entity (Wholly Owned Subsidiary / Pvt Ltd):</strong><br>&bull; Speed: 1 to 3 months to incorporate, bank, and register.<br>&bull; Control: Full corporate ownership and eligibility for local government subsidies.<br>&bull; Best for: Long-term presence, 25+ headcount, capital investments.<br><br><em>Jobman supports a seamless transition from EOR to your own entity whenever you are ready.</em>"
+    },
+    {
+      keywords: ["global desk", "europe desk", "corridors", "trade corridor", "basel", "stephan", "buchli", "switzerland", "apac", "emea", "north america", "tepa"],
+      question: "What are Jobman Global's international corridors and desks?",
+      answer: "We connect India delivery to 4 global growth corridors:<br><br>&bull; <strong>EMEA:</strong> Anchored by Stephan Buchli in Basel, Switzerland, leveraging the India–EFTA TEPA ($100B commitment) and UAE CEPA ($100B trade).<br>&bull; <strong>North America:</strong> Supporting US &amp; Canadian tech scale ($239.6B bilateral trade) with 15h follow-the-sun cycles.<br>&bull; <strong>APAC:</strong> Backed by the India–Australia ECTA (100% duty-free tariff lines) and Singapore financial hub.<br>&bull; <strong>Growth Markets:</strong> Covering 43 Latin American and emerging nations via Mauritius DTAA routing."
+    },
+    {
+      keywords: ["gcc", "global capability center", "bot", "captive", "odc", "micro gcc", "coe", "center of excellence"],
+      question: "What GCC and ODC models does Jobman Global provide?",
+      answer: "We deliver <strong>GCC as a Service</strong> across 4 tailored architectures:<br><br>1. <strong>CoE / Micro-GCC (25–150 Team):</strong> Fast, lean capability center without full entity incorporation overhead.<br>2. <strong>ODC (Offshore Development Center):</strong> Permanent operating backbone on Jobman infrastructure with deep business continuity.<br>3. <strong>BOT (Build-Operate-Transfer):</strong> We build and operate your center under our umbrella for 12–36 months, then transfer 100% of the team and entity to you.<br>4. <strong>Captive / Fully-Owned:</strong> End-to-end turnkey setup of your own dedicated subsidiary, custom facilities, and leadership team."
+    },
+    {
+      keywords: ["tier 2", "tier 3", "cities", "locations", "coimbatore", "kochi", "mysore", "mysuru", "nagpur", "jaipur", "indore", "raipur", "vizag", "visakhapatnam"],
+      question: "Why does Jobman Global specialize in Tier-2 and Tier-3 Indian cities?",
+      answer: "Tier-1 metros (Bengaluru, Mumbai, Delhi-NCR) suffer from high cost inflation and 25%+ attrition. We specialize in high-growth Tier-2/3 hubs like <strong>Coimbatore, Kochi, Mysuru, Vizag, Jaipur, Indore, Raipur, and Nagpur</strong>.<br><br>&bull; <strong>30% to 45% lower</strong> operating costs (real estate, salaries, facilities).<br>&bull; <strong>12% to 15% lower attrition</strong>, resulting in significantly higher team stability and retention.<br>&bull; Excellent state IT policies, SEZs, and top engineering college talent pools."
+    },
+    {
+      keywords: ["vendors replaced", "10 vendors", "12 vendors", "8 vendors", "too many vendors", "fragmented", "one partner"],
+      question: "What vendors does Jobman Global replace?",
+      answer: "Jobman Global replaces <strong>8 to 12 fragmented external service providers</strong> under one accountable relationship:<br><br>&bull; Independent recruitment agencies<br>&bull; Employment &amp; labor law counsel<br>&bull; Company Secretaries (ROC/MCA filings)<br>&bull; Payroll processing bureaus<br>&bull; Chartered Accountants (Audits &amp; tax)<br>&bull; Corporate insurance brokers<br>&bull; IT hardware &amp; facilities vendors<br>&bull; Expat relocation &amp; visa firms<br><br><em>One contract, zero finger-pointing, and 30%+ lower overhead.</em>"
+    },
+    {
+      keywords: ["talent", "recruitment", "hiring", "bgv", "background verification", "rpo", "executive search", "mass hiring"],
+      question: "How do your talent and recruitment solutions work?",
+      answer: "Our recruitment vertical offers 6 specialized models built on data-driven sourcing:<br><br>1. <strong>Managed Hiring:</strong> Dedicated recruiters for full lifecycle hiring.<br>2. <strong>RPO (Recruitment Process Outsourcing):</strong> Embedded talent team for high hiring volumes.<br>3. <strong>Executive Search:</strong> Confidential leadership mandates (CXO, VP, Directors).<br>4. <strong>Training &amp; Placement Program (TPP):</strong> Pre-vetted, upskilled candidate cohorts.<br>5. <strong>Global Outbound:</strong> Sourcing Indian professionals for international roles.<br>6. <strong>Mass / Volume Hiring:</strong> Accelerated hiring for operations and sales.<br><br><em>Includes integrated Background Verification (BGV) across identity, criminal, education, and prior employment.</em>"
+    },
+    {
+      keywords: ["market entry", "incorporation", "subsidiary", "pvt ltd", "llp", "branch office", "posh", "labor law", "fema", "gst", "iec"],
+      question: "What does Market Entry & Advisory cover?",
+      answer: "Our Market Entry practice is structured into two integrated parts:<br><br>&bull; <strong>Part 1: Incorporation &amp; Statutory Setup:</strong> Wholly Owned Subsidiary (WOS), Private Limited, LLP, Branch Office, Liaison Office, FEMA/RBI compliances, GST, PAN/TAN, Import-Export Code (IEC), and state labor registrations.<br>&bull; <strong>Part 2: HR, Legal &amp; Compliance Advisory:</strong> POSH compliance &amp; Internal Committee (IC) constitution, model standing orders, employment agreements, NDAs, IP assignment, and ISMS / DPDP data protection frameworks."
+    },
+    {
+      keywords: ["finance", "accounting", "tax", "payroll", "audit", "bookkeeping", "mis"],
+      question: "What Finance & Accounting services do you offer?",
+      answer: "Our finance practice provides institutional financial governance:<br><br>&bull; Multi-state payroll processing and statutory withholdings (PF, ESIC, Professional Tax, TDS).<br>&bull; Full-ledger cloud bookkeeping, accounts payable, and accounts receivable.<br>&bull; Monthly CXO financial MIS, cash flow forecasts, and variance reporting.<br>&bull; Direct and indirect tax compliance (GST filings, advance tax, corporate tax returns).<br>&bull; Statutory audit support and Transfer Pricing study documentation."
+    },
+    {
+      keywords: ["pricing", "cost", "commercials", "fee", "retainer", "how much"],
+      question: "How are your services priced?",
+      answer: "We offer transparent, milestone-based and retainer pricing models:<br><br>&bull; <strong>EOR &amp; Staffing:</strong> Transparent flat per-employee per-month (PEPM) fee or percentage of gross compensation, with zero hidden markups.<br>&bull; <strong>Incorporation &amp; Market Entry:</strong> Fixed-fee project milestones covering government filings and professional services.<br>&bull; <strong>Talent Solutions:</strong> Success-based placement fee or retained search model.<br>&bull; <strong>GCC / ODC:</strong> Transparent cost-plus or BOT management fee.<br><br><a href='contact.html#contact' class='jg-assist-inline-cta'>Schedule a 15-Minute Scoping Call &rarr;</a> to receive indicative commercials."
+    },
+    {
+      keywords: ["domestic", "indian business", "indian startup", "start up", "local company"],
+      question: "Can Jobman support domestic Indian businesses?",
+      answer: "Yes! Approximately half of our engagements are with fast-growing domestic Indian businesses and startups. We support domestic enterprises with specialist recruitment, third-party contractual payroll, multi-state labor compliance, POSH advisory, accounting, and workplace scaling."
+    },
+    {
+      keywords: ["leadership", "siddhartha", "agrawal", "siddharth", "akhil", "kedia", "stephan", "founders", "management"],
+      question: "Who leads Jobman Global?",
+      answer: "Jobman Global is led by an experienced cross-functional leadership team:<br><br>&bull; <strong>CA Siddhartha Agrawal:</strong> Advisory Board Lead &amp; Director — Chartered Accountant (FCA) with 30 years of corporate finance, cross-border M&amp;A, and capital structuring experience.<br>&bull; <strong>Akhil Kedia:</strong> CEO &amp; Management Consultant with nearly two decades of operational and investment banking experience.<br>&bull; <strong>Stephan Buchli:</strong> Regional Director, Europe Desk (Basel, Switzerland), INSEAD alumnus with 25+ years in international business."
+    },
+    {
+      keywords: ["career", "careers", "job", "apply", "resume", "cv", "hiring at jobman", "work at jobman"],
+      question: "How can I apply for jobs or join the Jobman Talent Network?",
+      answer: "We welcome exceptional talent across recruitment, compliance, accounting, HR operations, and technology!<br><br>&bull; <strong>Email Resume:</strong> Send your CV directly to <a href='mailto:careers@jobmanglobal.com'>careers@jobmanglobal.com</a>.<br>&bull; <strong>WhatsApp Application:</strong> Message our talent team at <a href='https://wa.me/919741426441' target='_blank'>+91 97414 26441</a>.<br>&bull; Applications are reviewed by our operations team within 2–3 business days."
+    },
+    {
+      keywords: ["contact", "email", "phone", "address", "reach", "talk", "scoping", "schedule", "call", "whatsapp"],
+      question: "How can I contact Jobman Global?",
+      answer: "You can connect with us directly:<br><br>&bull; <strong>Bengaluru HQ:</strong> +91 97414 26441 | info@jobmanglobal.com<br>&bull; <strong>Europe Desk (Basel):</strong> +41 79 792 52 00 | info.europe@jobmanglobal.com<br>&bull; <strong>WhatsApp:</strong> <a href='https://wa.me/919741426441' target='_blank'>Chat on WhatsApp &rarr;</a><br>&bull; <strong>Online Form:</strong> <a href='contact.html#contact'>Book a 15-Minute Scoping Call &rarr;</a>"
+    }
+  ];
+
+  function normalise(str) {
+    return (str || "").toLowerCase().replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+  }
+
+  function getAnswer(userQuery) {
+    const q = normalise(userQuery);
+    if (!q) {
+      return "Please ask a question regarding our India market entry, 15-hour delivery window, EOR, GCC setups, talent solutions, or compliance advisory.";
+    }
+
+    let bestMatch = null;
+    let highestScore = 0;
+
+    for (const item of KNOWLEDGE_BASE) {
+      let score = 0;
+      for (const kw of item.keywords) {
+        if (q.includes(kw)) {
+          // Exact full phrase bonus
+          score += kw.length * (kw.includes(" ") ? 3 : 1.5);
+        }
+      }
+      if (score > highestScore) {
+        highestScore = score;
+        bestMatch = item;
+      }
+    }
+
+    if (bestMatch && highestScore >= 4) {
+      return bestMatch.answer;
+    }
+
+    // Exhausted / Unrecognized Fallback with Direct Guidance to Contact Form & WhatsApp
+    return `I don't have the exact operational specifics on that inquiry in my immediate knowledge base, but our India specialists can address it directly for your team size and timeline.<br><br>
+    <strong>How would you like to connect?</strong>
+    <div class="jg-fallback-actions" style="display:flex; flex-direction:column; gap:8px; margin-top:12px;">
+      <a href="contact.html#contact" class="jg-assist-cta-btn" style="display:inline-flex; align-items:center; justify-content:center; gap:6px; background:#ff5722; color:#ffffff; padding:9px 14px; border-radius:6px; font-weight:700; font-size:13px; text-decoration:none; box-shadow:0 3px 10px rgba(255,87,34,0.3);">
+        📅 Book a 15-Minute Scoping Call &rarr;
+      </a>
+      <a href="https://wa.me/919741426441?text=Hello%20Jobman%20Global%2C%20I%20have%20an%20inquiry%20regarding%20India%20business%20operations." target="_blank" rel="noopener noreferrer" class="jg-assist-cta-btn sec" style="display:inline-flex; align-items:center; justify-content:center; gap:6px; background:#052d4c; color:#ffffff; padding:9px 14px; border-radius:6px; font-weight:700; font-size:13px; text-decoration:none;">
+        💬 Chat on WhatsApp (+91 97414 26441)
+      </a>
+      <a href="mailto:info@jobmanglobal.com" class="jg-assist-cta-btn alt" style="display:inline-flex; align-items:center; justify-content:center; gap:6px; background:#f1f5f9; color:#0f172a; padding:7px 12px; border-radius:6px; font-weight:600; font-size:12px; text-decoration:none; border:1px solid #cbd5e1;">
+        ✉️ Email info@jobmanglobal.com
+      </a>
+    </div>`;
+  }
+
+  function initChatbot() {
+    // Avoid double injection
+    if (document.getElementById("jg-assist-root")) return;
+
+    const root = document.createElement("div");
+    root.id = "jg-assist-root";
+    root.className = "jg-assist-root";
+    root.innerHTML = `
+      <div class="jg-assist-panel" id="jg-assist-panel" role="dialog" aria-label="Una AI Chat">
+        <header class="jg-assist-header">
+          <div class="jg-assist-face-small" aria-hidden="true"><span class="una-avatar una-avatar-icon"><span class="una-disc"><img src="apple-touch-icon.png" alt="" width="64" height="64" loading="lazy" decoding="async"></span><span class="una-chat-badge"><i></i><i></i><i></i></span><span class="una-online" title="Online"></span></span></div>
+          <div class="jg-assist-title">
+            <strong>Una</strong>
+            <span>Your India Business Operations Partner</span>
+          </div>
+          <button class="jg-assist-close" id="jg-assist-close" type="button" aria-label="Close assistant">&times;</button>
+        </header>
+
+        <div class="jg-assist-messages" id="jg-assist-messages">
+          <div class="jg-msg bot">
+            Hello! I am <strong>Una</strong>. How can I help you explore India today?
+            <div class="jg-suggested-prompts" style="display:flex; flex-wrap:wrap; gap:6px; margin-top:10px;">
+              <button type="button" class="jg-chip" data-q="What is the 15-hour working window?">⏰ 15-Hour Delivery Window</button>
+              <button type="button" class="jg-chip" data-q="Can a foreign company hire in India without incorporating?">🚀 EOR in India</button>
+              <button type="button" class="jg-chip" data-q="What is the difference between EOR and Legal Entity?">⚖️ EOR vs Legal Entity</button>
+              <button type="button" class="jg-chip" data-q="Why choose Tier 2 cities for GCC?">🏙️ Tier-2/3 GCC Cities</button>
+              <button type="button" class="jg-chip" data-q="What vendors does Jobman Global replace?">🛡️ Vendors Replaced</button>
+            </div>
+          </div>
+        </div>
+
+        <form class="jg-assist-input" id="jg-assist-form">
+          <input type="text" id="jg-assist-text" placeholder="Ask about EOR, 15h timing, GCC, legal setup..." autocomplete="off" aria-label="Ask Una a question">
+          <button type="submit" aria-label="Send query">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+          </button>
+        </form>
+      </div>
+
+      <button class="jg-assist-launcher" id="jg-assist-launcher" type="button" aria-label="Open Una AI Chat">
+        <div class="jg-assist-launcher-face" aria-hidden="true"><span class="una-avatar una-avatar-icon"><span class="una-disc"><img src="apple-touch-icon.png" alt="" width="64" height="64" loading="lazy" decoding="async"></span><span class="una-chat-badge"><i></i><i></i><i></i></span><span class="una-online" title="Online"></span></span></div>
+        <div class="jg-assist-badge">
+          <span>Una,</span>
+          <small>Ask me anything &bull; Online</small>
+        </div>
+      </button>
+    `;
+
+    document.body.appendChild(root);
+
+    const launcher = document.getElementById("jg-assist-launcher");
+    const panel = document.getElementById("jg-assist-panel");
+    const closeBtn = document.getElementById("jg-assist-close");
+    const form = document.getElementById("jg-assist-form");
+    const input = document.getElementById("jg-assist-text");
+    const messages = document.getElementById("jg-assist-messages");
+
+    function toggleChat(open) {
+      const shouldOpen = (open !== undefined) ? open : (launcher.style.display !== "none");
+      if (shouldOpen) {
+        panel.classList.add("active");
+        root.classList.add("open");
+        launcher.classList.add("jg-hidden");
+        launcher.style.setProperty("display", "none", "important");
+        setTimeout(() => input.focus(), 200);
+      } else {
+        panel.classList.remove("active");
+        root.classList.remove("open");
+        launcher.classList.remove("jg-hidden");
+        launcher.style.removeProperty("display");
+      }
+    }
+
+    launcher.addEventListener("click", () => toggleChat(true));
+    closeBtn.addEventListener("click", () => toggleChat(false));
+
+    function addMessage(role, html) {
+      const msg = document.createElement("div");
+      msg.className = `jg-msg ${role}`;
+      msg.innerHTML = html;
+      messages.appendChild(msg);
+      messages.scrollTop = messages.scrollHeight;
+    }
+
+    function handleQuestion(raw) {
+      const text = raw.trim();
+      if (!text) return;
+      addMessage("user", text);
+      input.value = "";
+      setTimeout(() => {
+        const reply = getAnswer(text);
+        addMessage("bot", reply);
+      }, 300);
+    }
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      handleQuestion(input.value);
+    });
+
+    // Delegate chip clicks
+    messages.addEventListener("click", (e) => {
+      const chip = e.target.closest(".jg-chip");
+      if (chip) {
+        const query = chip.getAttribute("data-q") || chip.textContent;
+        handleQuestion(query);
+      }
+    });
+
+    // Handle esc key
+    window.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && panel.classList.contains("active")) {
+        toggleChat(false);
+      }
+    });
+  }
+
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initChatbot);
+  } else {
+    initChatbot();
+  }
+})();

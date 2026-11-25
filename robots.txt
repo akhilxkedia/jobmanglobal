@@ -1,0 +1,73 @@
+# robots.txt for Jobman Global
+# https://jg.aryanservices.com
+
+User-agent: *
+Allow: /
+
+# Meta AI & Facebook Crawlers
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# OpenAI Crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic Claude Crawlers
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+# Perplexity AI Crawlers
+User-agent: PerplexityBot
+Allow: /
+
+# Google AI & Search Crawlers
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+# Apple AI & Siri Crawlers
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Common Crawl & Other AI Crawlers
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+# LLM Documentation Standards (https://llmstxt.org)
+# Machine-readable documentation of Jobman Global for AI assistants and answer engines
+LLM-Document: /llms.txt
+LLM-Full-Document: /llms-full.txt
+
+Sitemap: https://jg.aryanservices.com/sitemap.xml
