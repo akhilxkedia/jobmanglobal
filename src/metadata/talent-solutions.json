@@ -1,0 +1,185 @@
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://jg.aryanservices.com/#organization",
+      "name": "Jobman Global",
+      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
+      "taxID": "U78100KA2024PTC188225",
+      "identifier": "U78100KA2024PTC188225",
+      "alternateName": [
+        "Jobman",
+        "Jobman Global Business Services"
+      ],
+      "url": "https://jg.aryanservices.com/",
+      "logo": "https://jg.aryanservices.com/logo%20with%20tagline.png",
+      "image": "https://jg.aryanservices.com/logo%20with%20tagline.png",
+      "description": "Your India Business Partner. Jobman Global helps international businesses enter, establish and operate in India via EOR and legal entity setup, and supports domestic Indian companies with talent, payroll, finance and compliance.",
+      "foundingDate": "2022",
+      "knowsAbout": [
+        "Employer of Record India",
+        "India Market Entry",
+        "Company Incorporation India",
+        "Global Capability Centres GCC",
+        "FEMA and RBI Compliance",
+        "Talent Acquisition and Executive Search",
+        "Pan-India Contract Staffing",
+        "GST and Accounting Compliance"
+      ],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "location": [
+        {
+          "@type": "Place",
+          "name": "Jobman Global \u2014 India Operations & Delivery Hub",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 12.9716,
+            "longitude": 77.5946
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Jobman Global \u2014 Europe Desk Regional Point of Contact",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Basel",
+            "addressRegion": "Basel-Stadt",
+            "addressCountry": "CH"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.5596,
+            "longitude": 7.5886
+          }
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-97414-26441",
+          "contactType": "Pan-India Operations & Delivery",
+          "areaServed": [
+            "IN",
+            "US",
+            "SG",
+            "GB",
+            "AE",
+            "AU",
+            "Worldwide"
+          ],
+          "email": "info@jobmanglobal.com",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Kannada"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+41-79-792-5200",
+          "contactType": "Europe Desk Regional Advisory",
+          "areaServed": [
+            "CH",
+            "DE",
+            "AT",
+            "FR",
+            "EU"
+          ],
+          "email": "info.europe@jobmanglobal.com",
+          "availableLanguage": [
+            "English",
+            "German",
+            "French"
+          ]
+        }
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Akhil Kedia",
+          "jobTitle": "Chief Executive Officer (CEO)"
+        },
+        {
+          "@type": "Person",
+          "name": "Stephan Buchli",
+          "jobTitle": "Partner, Europe Desk"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/jobman-global/",
+        "https://www.facebook.com/people/Jobman-Global/61577722705301/",
+        "https://www.instagram.com/jobmanglobal/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jg.aryanservices.com/#website",
+      "url": "https://jg.aryanservices.com/",
+      "name": "Jobman Global",
+      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
+      "taxID": "U78100KA2024PTC188225",
+      "identifier": "U78100KA2024PTC188225",
+      "publisher": {
+        "@id": "https://jg.aryanservices.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Talent Solutions, Executive Search & RPO",
+      "provider": {
+        "@id": "https://jg.aryanservices.com/#organization"
+      },
+      "serviceType": "Talent Solutions, Executive Search & RPO",
+      "description": "Permanent placement, leadership search, recruitment process outsourcing (RPO), and custom talent drives across technology, finance, operations, and leadership.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://jg.aryanservices.com/#organization",
+      "name": "Jobman Global",
+      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
+      "taxID": "U78100KA2024PTC188225",
+      "identifier": "U78100KA2024PTC188225",
+      "alternateName": [
+        "Jobman",
+        "Jobman Global Business Services"
+      ],
+      "url": "https://jg.aryanservices.com/",
+      "logo": "https://jg.aryanservices.com/logo%20with%20tagline.png",
+      "image": "https://jg.aryanservices.com/logo%20with%20tagline.png",
+      "description": "Your India Business Partner. Jobman Global helps international businesses enter, establish and operate in India via EOR and legal entity setup, and supports domestic Indian companies with talent, payroll, finance and compliance.",
+      "foundingDate": "2022",
+      "knowsAbout": [
+        "Employer of Record India",
+        "India Market Entry",
+        "Company Incorporation India",
+        "Global Capability Centres GCC",
+        "FEMA and RBI Compliance",
+        "Talent Acquisition and Executive Search",
+        "Pan-India Contract Staffing",
+        "GST and Accounting Compliance"
+      ],
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "India"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "United Arab Emirates"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "location": [
+        {
+          "@type": "Place",
+          "name": "Jobman Global \u2014 India Operations & Delivery Hub",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Bengaluru",
+            "addressRegion": "Karnataka",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 12.9716,
+            "longitude": 77.5946
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Jobman Global \u2014 Europe Desk Regional Point of Contact",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Basel",
+            "addressRegion": "Basel-Stadt",
+            "addressCountry": "CH"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 47.5596,
+            "longitude": 7.5886
+          }
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-97414-26441",
+          "contactType": "Pan-India Operations & Delivery",
+          "areaServed": [
+            "IN",
+            "US",
+            "SG",
+            "GB",
+            "AE",
+            "AU",
+            "Worldwide"
+          ],
+          "email": "info@jobmanglobal.com",
+          "availableLanguage": [
+            "English",
+            "Hindi",
+            "Kannada"
+          ]
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+41-79-792-5200",
+          "contactType": "Europe Desk Regional Advisory",
+          "areaServed": [
+            "CH",
+            "DE",
+            "AT",
+            "FR",
+            "EU"
+          ],
+          "email": "info.europe@jobmanglobal.com",
+          "availableLanguage": [
+            "English",
+            "German",
+            "French"
+          ]
+        }
+      ],
+      "founder": [
+        {
+          "@type": "Person",
+          "name": "Akhil Kedia",
+          "jobTitle": "Chief Executive Officer (CEO)"
+        },
+        {
+          "@type": "Person",
+          "name": "Stephan Buchli",
+          "jobTitle": "Partner, Europe Desk"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/jobman-global/",
+        "https://www.facebook.com/people/Jobman-Global/61577722705301/",
+        "https://www.instagram.com/jobmanglobal/"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://jg.aryanservices.com/#website",
+      "url": "https://jg.aryanservices.com/",
+      "name": "Jobman Global",
+      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
+      "taxID": "U78100KA2024PTC188225",
+      "identifier": "U78100KA2024PTC188225",
+      "publisher": {
+        "@id": "https://jg.aryanservices.com/#organization"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Europe-India Business Desk & Regional Advisory",
+      "provider": {
+        "@id": "https://jg.aryanservices.com/#organization"
+      },
+      "serviceType": "Europe-India Business Desk & Regional Advisory",
+      "description": "Regional point of contact in Basel, Switzerland offering strategic European engagement, timezone coordination, and direct bridge to on-ground India delivery.",
+      "areaServed": {
+        "@type": "Country",
+        "name": "India"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a foreign company hire in India without incorporating?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. An Employer of Record (EOR) arrangement allows a foreign company to engage India-based employees through Jobman Global's local employing entity. Jobman handles employment contracts, payroll, PF/ESI statutory compliance, and tax withholding while the foreign company directs the employee's day-to-day work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When should we establish our own legal entity in India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Establishing a legal entity (such as a wholly owned subsidiary) is preferable when your India presence requires direct commercial billing, large-scale hiring (15+ employees), long-term capital investment, or full operational control. Jobman Global supports full incorporation, tax registrations, and ongoing compliance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where does Jobman Global deliver services across India?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Jobman Global delivers services nationwide across all Indian states and union territories. Operational delivery and management are anchored in Bengaluru, Karnataka, providing seamless pan-India coverage across Tier-1 metros and Tier-2/3 commercial hubs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can Jobman Global support an existing Indian company?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Jobman Global supports Indian startups and established domestic businesses with specialist recruitment, flexible contract staffing, third-party payroll, accounting/MIS, and statutory compliance coordination without coordinating multiple vendors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Jobman Global only serve European clients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Jobman Global supports businesses worldwide, including North America, the UK, Europe, Singapore, Australia, and the Middle East. The Basel office provides European clients with an accessible regional point of contact while service delivery is anchored in Bengaluru, India."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can an EOR team later transition to our own Indian legal entity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A seamless transition can be planned and executed to migrate employees from the EOR model into your newly incorporated entity without operational interruption."
+          }
+        }
+      ]
+    }
+  ]
+}
