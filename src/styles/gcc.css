@@ -1,269 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-  <title>Workplace & Operational Solutions in India | Jobman Global</title>
-  <meta name="description" content="Everything around your business, taken care of. Office identification, IT connectivity, corporate insurance, expat relocation, and administrative vendor management.">
-  <meta name="keywords" content="Workplace solutions India, office lease India, IT setup India, expat relocation India, corporate insurance India, vendor management India">
-  <link rel="canonical" href="workplace-solutions.html">
-  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 
-  <!-- OpenGraph / Facebook / LinkedIn -->
-  <meta property="og:site_name" content="Jobman Global">
-  <meta property="og:type" content="article">
-  <meta property="og:url" content="https://jg.aryanservices.com/workplace-solutions.html">
-  <meta property="og:title" content="Workplace & Operational Solutions in India | Jobman Global">
-  <meta property="og:description" content="Everything around your business, taken care of. Office identification, IT connectivity, corporate insurance, expat relocation, and administrative vendor management.">
-  <meta property="og:image" content="https://jg.aryanservices.com/logo%20with%20tagline.png">
-  <meta property="og:locale" content="en_US">
-
-  <!-- Twitter / X -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Workplace & Operational Solutions in India | Jobman Global">
-  <meta name="twitter:description" content="Everything around your business, taken care of. Office identification, IT connectivity, corporate insurance, expat relocation, and administrative vendor management.">
-  <meta name="twitter:image" content="https://jg.aryanservices.com/logo%20with%20tagline.png">
-
-  <!-- Geographic & Pan-India Meta (GEO) -->
-  <meta name="geo.region" content="IN-KA">
-  <meta name="geo.placename" content="Bengaluru, Karnataka, India">
-  <meta name="geo.position" content="12.9716;77.5946">
-  <meta name="ICBM" content="12.9716, 77.5946">
-  <meta name="coverage" content="India, Switzerland, United States, United Kingdom, Singapore, Australia, United Arab Emirates, Europe">
-  <meta name="distribution" content="Global">
-  <meta name="target" content="all">
-
-  <!-- AI & Generative Engine Directives (AEO & LLM Spec) -->
-  <link rel="alternate" type="text/markdown" href="llms.txt" title="LLM Context Documentation">
-
-  <!-- Schema.org Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://jg.aryanservices.com/#organization",
-      "name": "Jobman Global",
-      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
-      "taxID": "U78100KA2024PTC188225",
-      "identifier": "U78100KA2024PTC188225",
-      "alternateName": [
-        "Jobman",
-        "Jobman Global Business Services"
-      ],
-      "url": "https://jg.aryanservices.com/",
-      "logo": "https://jg.aryanservices.com/logo%20with%20tagline.png",
-      "image": "https://jg.aryanservices.com/logo%20with%20tagline.png",
-      "description": "Your India Business Partner. Jobman Global helps international businesses enter, establish and operate in India via EOR and legal entity setup, and supports domestic Indian companies with talent, payroll, finance and compliance.",
-      "foundingDate": "2022",
-      "knowsAbout": [
-        "Employer of Record India",
-        "India Market Entry",
-        "Company Incorporation India",
-        "Global Capability Centres GCC",
-        "FEMA and RBI Compliance",
-        "Talent Acquisition and Executive Search",
-        "Pan-India Contract Staffing",
-        "GST and Accounting Compliance"
-      ],
-      "areaServed": [
-        {
-          "@type": "Country",
-          "name": "India"
-        },
-        {
-          "@type": "Country",
-          "name": "Switzerland"
-        },
-        {
-          "@type": "Country",
-          "name": "United States"
-        },
-        {
-          "@type": "Country",
-          "name": "United Kingdom"
-        },
-        {
-          "@type": "Country",
-          "name": "Singapore"
-        },
-        {
-          "@type": "Country",
-          "name": "United Arab Emirates"
-        },
-        {
-          "@type": "Country",
-          "name": "Australia"
-        },
-        {
-          "@type": "Country",
-          "name": "Germany"
-        },
-        {
-          "@type": "Country",
-          "name": "France"
-        }
-      ],
-      "location": [
-        {
-          "@type": "Place",
-          "name": "Jobman Global \u2014 India Operations & Delivery Hub",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bengaluru",
-            "addressRegion": "Karnataka",
-            "addressCountry": "IN"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 12.9716,
-            "longitude": 77.5946
-          }
-        },
-        {
-          "@type": "Place",
-          "name": "Jobman Global \u2014 Europe Desk Regional Point of Contact",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Basel",
-            "addressRegion": "Basel-Stadt",
-            "addressCountry": "CH"
-          },
-          "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 47.5596,
-            "longitude": 7.5886
-          }
-        }
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "telephone": "+91-97414-26441",
-          "contactType": "Pan-India Operations & Delivery",
-          "areaServed": [
-            "IN",
-            "US",
-            "SG",
-            "GB",
-            "AE",
-            "AU",
-            "Worldwide"
-          ],
-          "email": "info@jobmanglobal.com",
-          "availableLanguage": [
-            "English",
-            "Hindi",
-            "Kannada"
-          ]
-        },
-        {
-          "@type": "ContactPoint",
-          "telephone": "+41-79-792-5200",
-          "contactType": "Europe Desk Regional Advisory",
-          "areaServed": [
-            "CH",
-            "DE",
-            "AT",
-            "FR",
-            "EU"
-          ],
-          "email": "info.europe@jobmanglobal.com",
-          "availableLanguage": [
-            "English",
-            "German",
-            "French"
-          ]
-        }
-      ],
-      "founder": [
-        {
-          "@type": "Person",
-          "name": "Akhil Kedia",
-          "jobTitle": "Chief Executive Officer (CEO)"
-        },
-        {
-          "@type": "Person",
-          "name": "Stephan Buchli",
-          "jobTitle": "Partner, Europe Desk"
-        }
-      ],
-      "sameAs": [
-        "https://www.linkedin.com/company/jobman-global/",
-        "https://www.facebook.com/people/Jobman-Global/61577722705301/",
-        "https://www.instagram.com/jobmanglobal/"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://jg.aryanservices.com/#website",
-      "url": "https://jg.aryanservices.com/",
-      "name": "Jobman Global",
-      "legalName": "JBMN ASSOCIATES PRIVATE LIMITED",
-      "taxID": "U78100KA2024PTC188225",
-      "identifier": "U78100KA2024PTC188225",
-      "publisher": {
-        "@id": "https://jg.aryanservices.com/#organization"
-      }
-    },
-    {
-      "@type": "Service",
-      "name": "Workplace, IT & Administrative Infrastructure Solutions",
-      "provider": {
-        "@id": "https://jg.aryanservices.com/#organization"
-      },
-      "serviceType": "Workplace, IT & Administrative Infrastructure Solutions",
-      "description": "Commercial office leasing, IT infrastructure & hardware setup, corporate insurance facilitation, expatriate relocation, and vendor management.",
-      "areaServed": {
-        "@type": "Country",
-        "name": "India"
-      }
-    }
-  ]
-}
-  </script>
-<!-- OpenGraph / Facebook / LinkedIn -->
-  
-  
-  
-  
-  
-  
-  
-
-  <!-- Twitter / X -->
-  
-  
-  
-  
-
-  <!-- Geographic & Pan-India Meta (GEO) -->
-  
-  
-  
-  
-  <meta name="coverage" content="India, Switzerland, United States, United Kingdom, Singapore, Australia, United Arab Emirates, Europe">
-  <meta name="distribution" content="Global">
-  <meta name="target" content="all">
-
-  <!-- AI & Generative Engine Directives (AEO & LLM Spec) -->
-  <link rel="alternate" type="text/markdown" href="llms.txt" title="LLM Context Documentation">
-
-  <!-- Schema.org Structured Data (JSON-LD) -->
-  
-<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    
-    <meta name="theme-color" content="#052d4c">
-    <link rel="icon" href="favicon.ico" sizes="any">
-    <link rel="icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
-    <link rel="icon" href="favicon-16x16.png" sizes="16x16" type="image/png">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <script>document.documentElement.classList.add("js");</script>
-    <style>
 /* ============================================================
    JOBMAN GLOBAL — v2
    Palette : Ink (deep charcoal-green) · Bone (warm paper) · Sand
@@ -678,7 +413,7 @@ section:not(.hero) { padding-block: var(--sec); }
 .main-nav a:last-child:hover { color: var(--bone); border-color: var(--ink); }
 .main-nav a:last-child:hover::after { transform: translateY(0); }
 
-.nav-services { position: static; }
+.nav-services { position: relative; }
 .services-toggle {
   display: inline-flex;
   align-items: center;
@@ -921,6 +656,10 @@ section:not(.hero) { padding-block: var(--sec); }
   line-height: 1;
   font-variant-numeric: tabular-nums;
 }
+
+.metric-strip.gcc-tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); border-top-color: var(--hair-ink); }
+.metric-strip.gcc-tiles span { border-left-color: var(--hair-ink); color: var(--on-ink-muted); }
+.metric-strip.gcc-tiles strong { color: var(--on-ink); font-size: clamp(19px, 1.8vw, 24px); }
 
 /* --- convergence diagram --- */
 
@@ -1470,29 +1209,262 @@ section:not(.hero) { padding-block: var(--sec); }
 
 /* Other Workplace Solutions */
 .workplace-overview { background: var(--ink); color: var(--on-ink); }
-section.workplace-overview { padding-top: clamp(104px, 8vw, 128px); }
 .workplace-overview .eyebrow { color: var(--flame); }
 .workplace-overview h2 { max-width: 22ch; color: var(--on-ink); }
 .workplace-overview .lede { max-width: 78ch; color: var(--on-ink-muted); }
-.workplace-overview .section-heading { margin-bottom: 0; }
-main > section { padding-block: clamp(31px, 3.87vw, 54px); }
 .workplace-section { background: var(--bone); }
 .workplace-section.alt { background: var(--bone-warm); }
 .workplace-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1px; margin-top: 23px; border: 1px solid var(--hair); background: var(--hair); }
 .workplace-card { position: relative; min-height: 300px; padding: 16px; background: var(--bone); transition: transform .4s var(--out), background .3s var(--ease); }
 .workplace-card:hover { z-index: 2; transform: translateY(-5px); background: #ffffff; }
 .workplace-card.wide { grid-column: span 2; min-height: 220px; }
-.workplace-card-heading { display: flex; align-items: center; gap: 12px; }
-.workplace-card h3 { margin: 0; font-family: var(--body); font-size: 22px; font-weight: 600; letter-spacing: -.01em; }
+.workplace-card h3 { margin-top: 16px; font-size: 22px; }
 .workplace-card p { margin: 12px 0 0; color: var(--on-bone-muted); font-size: 14.5px; }
 .workplace-card ul { margin: 14px 0 0; padding: 0; list-style: none; }
 .workplace-card li { position: relative; padding: 9px 0 9px 12px; border-top: 1px solid var(--hair-soft); color: var(--on-bone-muted); font-size: 14px; }
 .workplace-card li::before { content: ""; position: absolute; top: 17px; left: 1px; width: 6px; height: 6px; border-radius: 50%; background: var(--vermilion); }
-.workplace-value-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1px; margin-top: 14px; background: var(--hair); }
-.workplace-value-grid article { padding: 14px; background: var(--ink); color: var(--on-ink); transition: background .4s var(--ease), transform .4s var(--out); }
-.workplace-value-grid article:hover { background: var(--ink-raise); transform: translateY(-2px); }
-.workplace-value-grid h3 { color: var(--flame); font-size: 22px; transition: color .3s var(--ease); }
-.workplace-value-grid p { margin: 12px 0 0; color: var(--on-ink-muted); font-size: 14.5px; }
+.workplace-value-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1px; margin-top: 21px; border: 1px solid var(--hair); background: var(--hair); }
+.workplace-value-grid article { min-height: 190px; padding: 20px; background: var(--bone-warm); }
+.workplace-value-grid h3 { font-size: 22px; }
+.workplace-value-grid p { margin: 12px 0 0; color: var(--on-bone-muted); font-size: 14.5px; }
+
+/* GCC & Partnerships */
+.gcc-overview { background: var(--ink); color: var(--on-ink); }
+section.gcc-overview { padding-top: clamp(104px, 8vw, 128px); }
+.gcc-overview .eyebrow { color: var(--flame); }
+.gcc-overview h2 { max-width: 23ch; color: var(--on-ink); }
+.gcc-overview .lede { max-width: 78ch; color: var(--on-ink-muted); }
+.gcc-overview > .wrap {
+  display: grid;
+  grid-template-columns: minmax(0, 1.12fr) minmax(360px, .88fr);
+  gap: clamp(24px, 3.52vw, 50px);
+  align-items: center;
+}
+.gcc-overview .section-heading { margin-bottom: 0; }
+.gcc-overview-visual { margin: 0 auto; }
+.gcc-overview .metric-strip {
+  margin-top: clamp(19px, 2.82vw, 31px);
+}
+.gcc-overview .metric-strip span {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+section.gcc-overview {
+  padding-block-end: 0;
+}
+@media (max-width: 1000px) {
+  .gcc-overview > .wrap { grid-template-columns: minmax(0, 1fr); }
+  .gcc-overview-visual { margin-top: clamp(24px, 4.22vw, 37px); }
+}
+.gcc-section { background: var(--bone); }
+.gcc-section.alt { background: var(--bone-warm); }
+.gcc-narrative { max-width: 92ch; color: var(--on-bone-muted); font-size: 17px; }
+.gcc-narrative strong { color: var(--on-bone); }
+.gcc-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 1px; margin-top: 23px; border: 1px solid var(--hair); background: var(--hair); }
+.gcc-card { display: grid; grid-template-columns: 46px minmax(0, 1fr); column-gap: 12px; align-content: start; padding: 14px; background: var(--bone); transition: transform .4s var(--out), background .3s var(--ease); }
+.gcc-card:hover { z-index: 2; transform: translateY(-5px); background: #ffffff; }
+.gcc-card .staffing-icon { grid-column: 1; grid-row: 1; }
+.gcc-card h3 { grid-column: 2; align-self: center; margin: 0; font-size: 21px; }
+.gcc-card p { grid-column: 1 / -1; margin: 14px 0 0; color: var(--on-bone-muted); font-size: 14px; }
+.gcc-roadmap { background: var(--ink); color: var(--on-ink); }
+.gcc-roadmap .eyebrow { color: var(--flame); }
+.gcc-roadmap h2 { color: var(--on-ink); }
+.gcc-roadmap .lede { color: var(--on-ink-muted); }
+.gcc-phases { --phase-rail: clamp(170px, 23vw, 280px); position: relative; margin-top: 26px; }
+.gcc-phases::before { content: ""; position: absolute; top: 8px; bottom: 8px; left: calc(var(--phase-rail) + 16px); border-left: 1px dashed rgba(234, 240, 246, .55); }
+.gcc-phases::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 8px;
+  left: calc(var(--phase-rail) + 16.5px);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--on-ink);
+  box-shadow: 0 0 0 4px rgba(234, 240, 246, .14), 0 0 16px rgba(234, 240, 246, .75);
+  transform: translate(-50%, -50%);
+  animation: gccTimelineFlow 7.2s linear infinite;
+}
+.gcc-phase { position: relative; display: grid; grid-template-columns: var(--phase-rail) 34px minmax(0, 1fr); padding: 0 0 23px; }
+.gcc-phase:last-child { padding-bottom: 0; }
+.gcc-phase::before { content: ""; position: absolute; top: 7px; left: calc(var(--phase-rail) + 11px); width: 10px; height: 10px; border: 2px solid var(--ink); border-radius: 50%; background: var(--on-ink); animation: gccTimelineStage 7.2s var(--ease) infinite; }
+.gcc-phase:nth-child(2)::before { animation-delay: 1.2s; }
+.gcc-phase:nth-child(3)::before { animation-delay: 2.4s; }
+.gcc-phase:nth-child(4)::before { animation-delay: 3.6s; }
+.gcc-phase:nth-child(5)::before { animation-delay: 4.8s; }
+.gcc-phase:nth-child(6)::before { animation-delay: 6s; }
+.gcc-phase-name { grid-column: 1; padding: 5px 16px 0 0; color: var(--flame); font-family: var(--mono); font-size: 11px; font-weight: 500; letter-spacing: .08em; text-align: right; text-transform: uppercase; }
+.gcc-phase-copy { grid-column: 3; }
+.gcc-phase h3 { margin: 0 0 7px; color: var(--flame); font-size: 22px; }
+.gcc-phase p { max-width: 70ch; margin: 0; color: var(--on-ink); }
+@keyframes gccTimelineFlow {
+  0% { top: 8px; opacity: 0; }
+  4%, 96% { opacity: 1; }
+  100% { top: calc(100% - 8px); opacity: 0; }
+}
+@keyframes gccTimelineStage {
+  0%, 12%, 100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(234, 240, 246, 0); }
+  4% { transform: scale(1.45); box-shadow: 0 0 0 6px rgba(234, 240, 246, .16), 0 0 15px rgba(234, 240, 246, .72); }
+}
+.gcc-roadmap-note {
+  width: 100%;
+  margin: 23px 0 0;
+  padding: 14px 14px;
+  box-sizing: border-box;
+  border-left: 3px solid var(--flame);
+  background: rgba(234, 240, 246, .07);
+  color: var(--on-ink-muted);
+  font-size: 14px;
+  line-height: 1.65;
+}
+.gcc-model-table-shell {
+  width: 100%;
+  margin-top: clamp(16px, 2.11vw, 23px);
+  overflow: hidden;
+  border: 1px solid var(--hair);
+  border-radius: 3px;
+  background: var(--bone);
+}
+.gcc-model-table { width: 100%; table-layout: fixed; border-collapse: collapse; }
+.gcc-model-table col.attr-col { width: 22%; }
+.gcc-model-table col.role-col { width: 46%; }
+.gcc-model-table col.engagement-col { width: 32%; }
+.gcc-model-table th,
+.gcc-model-table td {
+  padding: clamp(10px, 1.06vw, 12px) clamp(8px, 1.5vw, 18px);
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+}
+.gcc-model-table thead th {
+  border-bottom: 2px solid var(--ink);
+  color: var(--vermilion-text);
+  font-family: var(--display);
+  font-size: clamp(12px, 1.45vw, 18px);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.gcc-model-table caption {
+  padding: clamp(11px, 1.3vw, 14px);
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--display);
+  font-size: clamp(14px, 1.6vw, 18px);
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.gcc-model-table tbody th {
+  border-right: 1px solid var(--hair);
+  background: var(--bone-warm);
+  color: var(--vermilion-text);
+  font-family: var(--mono);
+  font-size: clamp(9px, .95vw, 11px);
+  font-weight: 700;
+  letter-spacing: .04em;
+  line-height: 1.45;
+  text-transform: uppercase;
+}
+.gcc-model-table tbody td {
+  border-top: 1px solid var(--hair);
+  color: var(--on-bone-muted);
+  font-size: clamp(11px, 1.15vw, 15px);
+  line-height: 1.55;
+  transition: background .3s var(--ease);
+}
+.gcc-model-table tbody td + td { border-left: 1px solid var(--hair-soft); }
+.gcc-model-table tbody tr:hover td { background: rgba(30, 116, 178, .06); }
+.gcc-model-table strong { color: var(--on-bone); font-weight: 700; }
+.gcc-model-table-shell.is-in tbody tr { animation: gccModelRowIn .55s var(--out) both; }
+.gcc-model-table-shell.is-in tbody tr:nth-child(2) { animation-delay: .1s; }
+.gcc-model-table-shell.is-in tbody tr:nth-child(3) { animation-delay: .2s; }
+.gcc-model-table-shell.is-in tbody tr:nth-child(4) { animation-delay: .3s; }
+@keyframes gccModelRowIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.gcc-model-note {
+  width: 100%;
+  margin: 19px 0 0;
+  padding: 14px 14px;
+  box-sizing: border-box;
+  border-left: 3px solid var(--vermilion);
+  background: rgba(255, 255, 255, .52);
+  color: var(--on-bone-muted);
+  font-size: 16px;
+}
+.gcc-india-proof { background: var(--bone-warm); }
+.gcc-india-proof .section-heading { margin-bottom: clamp(18px, 2.2vw, 26px); }
+.gcc-proof-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--hair);
+  background: var(--hair);
+}
+.gcc-proof {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 12px;
+  min-height: 122px;
+  padding: clamp(14px, 1.6vw, 20px);
+  overflow: hidden;
+  background: var(--bone);
+  transition: background .35s var(--ease), transform .4s var(--out);
+}
+.gcc-proof::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--vermilion), var(--flame), var(--vermilion));
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.gcc-proof.is-in::after { animation: gccProofSweep .8s var(--out) both; }
+.gcc-proof:nth-child(2).is-in::after { animation-delay: .08s; }
+.gcc-proof:nth-child(3).is-in::after { animation-delay: .16s; }
+.gcc-proof:nth-child(4).is-in::after { animation-delay: .24s; }
+.gcc-proof:nth-child(5).is-in::after { animation-delay: .32s; }
+.gcc-proof:nth-child(6).is-in::after { animation-delay: .4s; }
+.gcc-proof:nth-child(7).is-in::after { animation-delay: .48s; }
+.gcc-proof:nth-child(8).is-in::after { animation-delay: .56s; }
+.gcc-proof:hover { z-index: 1; background: #fff; transform: translateY(-3px); }
+.gcc-proof-index {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 44px;
+  height: 44px;
+  border: 1px solid rgba(30, 116, 178, .35);
+  border-radius: 50%;
+  color: var(--vermilion);
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+.gcc-proof-index svg {
+  width: 23px;
+  height: 23px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.gcc-proof h3 { margin: 1px 0 6px; color: var(--on-bone); font-size: clamp(18px, 1.65vw, 22px); }
+.gcc-proof p { margin: 0; color: var(--on-bone-muted); font-size: clamp(13.5px, 1.1vw, 15px); line-height: 1.5; }
+@keyframes gccProofSweep {
+  from { transform: scaleX(0); opacity: .25; }
+  to { transform: scaleX(1); opacity: 1; }
+}
 
 /* ============================================================
    DEEP SERVICES
@@ -2124,7 +2096,7 @@ main > section { padding-block: clamp(31px, 3.87vw, 54px); }
 .gcc p { color: var(--on-ink-muted); }
 .gcc h2 { max-width: 16ch; }
 
-.gcc-visual { position: relative; width: 100%; max-width: 500px; aspect-ratio: 1; margin-inline: auto; }
+.gcc-visual { position: relative; width: 100%; max-width: 380px; aspect-ratio: 1; margin-inline: auto; }
 .gcc-visual .orbits { position: absolute; inset: 0; width: 100%; height: 100%; }
 .gcc-visual .orbits circle { fill: none; stroke: var(--hair-ink); }
 .gcc-visual .orbits .dashed {
@@ -2143,19 +2115,26 @@ main > section { padding-block: clamp(31px, 3.87vw, 54px); }
   position: absolute;
   top: 50%;
   left: 50%;
-  display: grid;
-  place-items: center;
-  width: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  width: 24%;
   aspect-ratio: 1;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   background: var(--vermilion-deep);
   color: #fff;
   font-family: var(--display);
-  font-size: clamp(24px, 3.4vw, 40px);
+  font-size: clamp(11px, 2.3vw, 16px);
   font-weight: 600;
+  line-height: 1.15;
+  text-align: center;
   animation: gccPulse 4.4s ease-in-out infinite;
 }
+.gcc-visual strong .gcc-visual-your { display: block; font-size: .62em; font-weight: 500; opacity: .92; }
+.gcc-visual strong span { display: block; font-size: .95em; }
 @keyframes gccPulse {
   0%, 100% { box-shadow: 0 0 0 0 rgba(30, 116, 178, .4); }
   60%      { box-shadow: 0 0 0 34px rgba(30, 116, 178, 0); }
@@ -2163,23 +2142,24 @@ main > section { padding-block: clamp(31px, 3.87vw, 54px); }
 
 .node {
   position: absolute;
-  padding: 10px 14px;
+  padding: 6px 9px;
   border: 1px solid var(--hair-ink);
   border-radius: 2px;
   background: rgba(7, 62, 102, .9);
   backdrop-filter: blur(6px);
   color: var(--on-ink);
   font-family: var(--mono);
-  font-size: 11.5px;
-  letter-spacing: .08em;
+  font-size: 9.5px;
+  letter-spacing: .06em;
   text-transform: uppercase;
   white-space: nowrap;
-  animation: bob 6s ease-in-out infinite;
+  transform: translate(-50%, -50%);
 }
-.node.global { top: 6%;  left: 3%;  animation-delay: 0s; }
-.node.india  { top: 44%; right: -2%; animation-delay: .8s; }
-.node.ops    { bottom: 8%; left: 9%; animation-delay: 1.6s; }
-@keyframes bob { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+.node.hq-eu   { top: calc(7.5% - 10px);   left: 50%; }
+.node.hq-us   { top: 36.9%;  left: 90.4%; }
+.node.hq-uk   { top: 84.4%;  left: 75%; }
+.node.hq-mea  { top: 84.4%;  left: 25%; }
+.node.hq-apac { top: 36.9%;  left: 9.6%; }
 
 .promise-stack { display: grid; margin-top: 23px; border-top: 1px solid var(--hair-ink); }
 .promise-stack span {
@@ -2376,7 +2356,8 @@ footer {
   color: var(--on-ink-muted);
   font-size: 14px;
 }
-footer strong { color: var(--on-ink); font-family: var(--display); font-size: 21px; font-weight: 600; }
+.footer-brand { display: block; width: clamp(170px, 15vw, 190px); height: 50px; overflow: hidden; }
+.footer-logo { display: block; width: 100%; height: auto; transform: translateY(-31%); }
 footer span { max-width: 64ch; }
 
 /* ============================================================
@@ -2401,7 +2382,7 @@ footer span { max-width: 64ch; }
   .ecosystem-map { position: static; }
   .hero-content { grid-template-columns: minmax(0, 1fr); }
   .ecosystem-orbit { margin-inline: auto; }
-  .gcc-visual { max-width: 420px; }
+  .gcc-visual { max-width: 532px; }
 }
 
 @media (max-width: 900px) {
@@ -2478,6 +2459,9 @@ footer span { max-width: 64ch; }
   .metric-strip { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .metric-strip span:nth-child(3) { border-left: 0; padding-left: 0; }
   .metric-strip span:nth-child(-n+2) { border-bottom: 1px solid var(--hair-soft); }
+  .metric-strip.gcc-tiles { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .metric-strip.gcc-tiles span:nth-child(-n+2) { border-bottom: 0; }
+  .metric-strip.gcc-tiles span:nth-child(3) { border-left: 1px solid var(--hair-ink); padding-left: 14px; }
 
   .map-columns { grid-template-columns: minmax(0, 1fr); gap: 14px; }
   .timeline { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -2486,6 +2470,7 @@ footer span { max-width: 64ch; }
   .finance-value-grid { grid-template-columns: minmax(0, 1fr); }
   .workplace-grid, .workplace-value-grid { grid-template-columns: minmax(0,1fr); }
   .workplace-card.wide { grid-column: auto; }
+  .gcc-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
   .eor-process { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   footer { grid-template-columns: minmax(0, 1fr); gap: 14px; }
 }
@@ -2515,6 +2500,22 @@ footer span { max-width: 64ch; }
   .finance-card.wide { grid-column: auto; }
   .finance-card, .finance-value-grid article { min-height: 0; }
   .workplace-card, .workplace-value-grid article { min-height: 0; }
+  .gcc-grid { grid-template-columns: minmax(0,1fr); }
+  .gcc-card { min-height: 0; }
+  .gcc-proof-grid { grid-template-columns: minmax(0, 1fr); }
+  .gcc-proof { min-height: 0; grid-template-columns: 40px minmax(0, 1fr); gap: 12px; }
+  .gcc-proof-index { width: 36px; height: 36px; }
+  .gcc-model-table th,
+  .gcc-model-table td { padding: 10px 6px; }
+  .gcc-model-table thead th { font-size: 10px; }
+  .gcc-model-table tbody th { font-size: 8px; letter-spacing: 0; }
+  .gcc-model-table tbody td { font-size: 10px; line-height: 1.45; }
+  .gcc-phases { --phase-rail: 0px; padding-left: 19px; }
+  .gcc-phases::before { left: 5px; }
+  .gcc-phases::after { left: 5.5px; }
+  .gcc-phase { display: block; }
+  .gcc-phase::before { left: -30px; }
+  .gcc-phase-name { display: block; padding: 0 0 7px; text-align: left; }
   .eor-diagram { margin-inline: -8px; padding: 8px; }
   .staffing-card, .eor-step,
   .staffing-fit-panel { min-height: 0; padding: 14px 12px; }
@@ -2533,6 +2534,7 @@ footer span { max-width: 64ch; }
   .metric-strip { grid-template-columns: minmax(0, 1fr); }
   .metric-strip span { border-left: 0; padding: 14px 0; border-bottom: 1px solid var(--hair-soft); }
   .metric-strip span:last-child { border-bottom: 0; }
+  .metric-strip.gcc-tiles { grid-template-columns: minmax(0, 1fr); }
 
   .ecosystem-orbit { max-width: 100%; }
   .ecosystem-orbit span { padding: 6px 9px; font-size: 10px; letter-spacing: .04em; }
@@ -2545,6 +2547,41 @@ footer span { max-width: 64ch; }
 
   .accordion-grid summary, .faq summary { padding-right: 26px; }
   .accordion-grid details > p, .faq details > p { padding-right: 0; }
+}
+
+/* GCC SPOTLIGHT — location-agnostic delivery note */
+.gcc-spotlight {
+  margin-top: clamp(24px, 2.6vw, 36px);
+  padding: clamp(22px, 2.6vw, 32px) clamp(22px, 3vw, 36px);
+  border: 1px solid #cbd5e1;
+  border-left: 4px solid #1e74b2;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(5, 45, 76, 0.05);
+}
+.gcc-spotlight .gcc-spotlight-eyebrow {
+  margin: 0 0 10px;
+  color: #d84315;
+  font-weight: 700;
+  font-size: 12.5px;
+  letter-spacing: 0.14em;
+}
+.gcc-spotlight .gcc-spotlight-eyebrow::before { display: none; }
+.gcc-spotlight h3 {
+  margin: 0 0 12px;
+  color: #052d4c;
+  font-family: var(--display);
+  font-size: clamp(22px, 2.2vw, 28px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -.01em;
+}
+.gcc-spotlight p:not(.eyebrow) {
+  max-width: none;
+  margin: 0;
+  color: #1e293b;
+  font-size: 16.5px;
+  line-height: 1.65;
 }
 
 /* ============================================================
@@ -2631,504 +2668,3 @@ footer span { max-width: 64ch; }
   .cxo-cta { flex-direction: column; align-items: stretch; }
   .cxo-cta-btn { justify-content: center; }
 }
-    </style>
-    <link rel="stylesheet" href="footer.css%3Fv=20261116.css">
-    <link rel="alternate" type="text/markdown" href="llms.txt" title="LLM Context Documentation">
-  <link rel="stylesheet" href="jg-assist.css%3Fv=20261118.css">
-  
-  <script defer src="jg-assist.js%3Fv=20261118"></script>
-</head>
-  <body>
-    <div class="progress" aria-hidden="true"></div>
-    <a class="skip-link" href="workplace-solutions.html#top">Skip to content</a>
-
-    <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Jobman Global home">
-        <img class="brand-logo" src="logo%20with%20tagline.png" alt="Jobman Global — Your India Business Partner">
-      </a>
-      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="main-nav" id="primary-nav" aria-label="Primary navigation">
-        <a href="index.html#home-overview">Home</a>
-        <a href="company.html#company">About Us</a>
-        <div class="nav-services">
-          <button class="services-toggle" type="button" aria-expanded="false" aria-controls="services-mega-menu">
-            Services
-            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="m2.5 4.5 3.5 3 3.5-3"/></svg>
-          </button>
-          <div class="services-mega" id="services-mega-menu" style="padding-top: 14px;padding-bottom: 14px;">
-            <section class="mega-group" aria-labelledby="mega-compliance">
-              <span class="mega-label" id="mega-compliance">Compliance &amp; Support</span>
-              <a href="marketing-advisory.html#market-entry-advisory"><span class="mega-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3v18M6 7h12"/><path d="M6 7l-3 6a3 3 0 0 0 6 0l-3-6zM18 7l-3 6a3 3 0 0 0 6 0l-3-6z"/></svg></span><span class="mega-copy"><strong>Market Entry &amp; Advisory</strong><small>Structure, entity &amp; compliance</small></span></a>
-              <a href="workplace-solutions.html#workplace-solutions-overview"><span class="mega-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="4" width="8" height="17"/><rect x="13" y="10" width="8" height="11"/><path d="M6 8h2M6 12h2M16 14h2M16 18h2"/></svg></span><span class="mega-copy"><strong>Workplace &amp; Operations</strong><small>Office, IT, insurance, vendors</small></span></a>
-            </section>
-            <section class="mega-group" aria-labelledby="mega-hr">
-              <span class="mega-label" id="mega-hr">HR &amp; Staffing</span>
-              <a href="talent-solutions.html#talent-solutions-overview"><span class="mega-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2.4"/><path d="M3 21v-1.5C3 16.5 5.7 15 9 15s6 1.5 6 4.5V21"/><path d="M15.2 15.3c2.4.2 4.3 1.6 4.3 4.2V21"/></svg></span><span class="mega-copy"><strong>Talent Solutions</strong><small>Specialist &amp; leadership hiring</small></span></a>
-              <a href="staffing-eor.html#staffing-eor-overview"><span class="mega-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3 5 6v5.5c0 4.5 3 8 7 9.5 4-1.5 7-5 7-9.5V6Z"/><path d="m9 12 2 2 4-4"/></svg></span><span class="mega-copy"><strong>EOR &amp; Staffing</strong><small>Flexible workforce models</small></span></a>
-            </section>
-            <section class="mega-group" aria-labelledby="mega-finance">
-              <span class="mega-label" id="mega-finance">Finance and Setup</span>
-              <a href="finance-accounting.html#finance-accounting-overview"><span class="mega-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="9" cy="7" rx="6" ry="3"/><path d="M3 7v5c0 1.7 2.7 3 6 3s6-1.3 6-3V7"/><path d="M3 12v5c0 1.7 2.7 3 6 3"/></svg></span><span class="mega-copy"><strong>Finance &amp; Accounting</strong><small>Books, MIS &amp; statutory audit</small></span></a>
-            </section>
-          </div>
-        </div>
-        <a href="gcc.html#gcc-setup-overview">GCC &amp; Partnerships</a>
-        <a href="global-india.html">Global Desk</a>
-        <a href="resources.html#resources">Resources</a>
-        <a href="contact.html#contact">Contact</a>
-        <a class="nav-cta-btn" href="contact.html#contact">Book a 15-Min Scoping Call</a>
-      </nav>
-    </header>
-
-    <main id="top">
-      <section class="workplace-overview section-animate lit" id="workplace-solutions-overview">
-        <div class="wrap">
-          <div class="section-heading">
-            <p class="eyebrow">Other Workplace Solutions</p>
-            <div>
-              <h1 data-split>The operational backbone most businesses underestimate</h1>
-              <p class="lede">Running a business in India requires more than strategy — it demands reliable execution across insurance, infrastructure, expat management, IT systems, and vendor coordination. Jobman Global replaces that entire patchwork of vendors with a single administrative and functional partner. Your operations run seamlessly in the background, so you can focus on growth while we handle the rest.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="workplace-section section-animate" id="workplace-what-we-offer">
-        <div class="wrap">
-          <div class="section-heading"><p class="eyebrow">What We Offer</p><h2 data-split>Multiple areas of support, one partner</h2></div>
-          <div class="workplace-grid">
-            <article class="workplace-card spot">
-              <div class="workplace-card-heading"><span class="staffing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.5-3 8-7 9.5-4-1.5-7-5-7-9.5V6l7-3zM9 12l2 2 4-4.2"/></svg></span><h3>Insurance Management</h3></div>
-              <p>Protecting your business, people, and assets with the right coverage.</p>
-              <p><strong>We handle:</strong></p>
-              <ul><li>Corporate insurance advisory</li><li>Employee health and group insurance</li><li>Property, liability, and asset insurance</li><li>Employee group medical (GMC) and personal accidental (GPA)</li><li>Workmen Compensation, Public Liability, and Cyber risk</li><li>Commercial General Liability (CGL) and Errors &amp; Omissions (E&amp;O)</li><li>Directors &amp; Officers (D&amp;O) liability and Professional Indemnity</li></ul>
-            </article>
-            <article class="workplace-card spot">
-              <div class="workplace-card-heading"><span class="staffing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 13l7-2 5-8 2 1-3 8 5-1 2 2-6 3-2 5-2-1 1-5-6 2z"/></svg></span><h3>Expat Management Services</h3></div>
-              <p>Smooth onboarding and ongoing support for foreign employees relocating to India.</p>
-              <p><strong>We manage:</strong></p>
-              <ul><li>Visa, FRRO, and compliance documentation</li><li>Relocation assistance and housing support</li><li>Local orientation and cultural onboarding</li><li>Payroll, taxation, and benefits coordination</li><li>Ongoing support throughout the assignment</li><li>NOC for exit and assignment conclusion support</li></ul>
-            </article>
-            <article class="workplace-card spot">
-              <div class="workplace-card-heading"><span class="staffing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="11" rx="1"/><path d="M2 19h20"/></svg></span><h3>IT Infrastructure &amp; Set-Up</h3></div>
-              <p>Reliable, secure, and scalable IT systems for your business operations.</p>
-              <p><strong>We provide:</strong></p>
-              <ul><li>Workstation and hardware procurement</li><li>Network setup, Wi-Fi, and security configuration</li><li>Email, cloud, and collaboration tools setup</li><li>Access control and IT asset management</li><li>Ongoing IT support and troubleshooting</li></ul>
-            </article>
-            <article class="workplace-card spot">
-              <div class="workplace-card-heading"><span class="staffing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="8" height="17"/><rect x="13" y="10" width="8" height="11"/><path d="M6 8h2M6 12h2M6 16h2M16 14h2M16 18h2"/></svg></span><h3>Office Lease &amp; Infrastructure Support</h3></div>
-              <p>End-to-end assistance in finding, setting up, and managing your workspace.</p>
-              <p><strong>We support you with:</strong></p>
-              <ul><li>Office space identification and leasing</li><li>Negotiation and documentation support</li><li>Interior setup and facility coordination</li><li>Utility setup (internet, electricity, housekeeping)</li><li>Ongoing office administration</li></ul>
-            </article>
-            <article class="workplace-card wide spot">
-              <div class="workplace-card-heading"><span class="staffing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12l5-4 4 3 3-2 5 4-4 5-3-2-3 2-5-4zM9 11l2 2M13 9l2 2"/></svg></span><h3>Vendor &amp; Admin Management</h3></div>
-              <p>One partner to manage all your external vendors and administrative needs.</p>
-              <p><strong>We handle:</strong></p>
-              <ul><li>Vendor sourcing, onboarding, and evaluation</li><li>Contracting, renewals, and negotiations</li><li>Daily coordination and issue resolution</li><li>Performance tracking and SLA governance</li><li>Payments, invoicing, and documentation</li></ul>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="workplace-section alt section-animate" id="workplace-why-jobman">
-        <div class="wrap">
-          <div class="section-heading center"><p class="eyebrow">Why Jobman Global</p><h2 data-split>Small tasks that create big chaos, avoided</h2></div>
-          <div class="workplace-value-grid">
-            <article class="spot"><h3>Small tasks stop becoming big chaos</h3><p>No more juggling insurance agents, IT vendors, landlords, and admin teams separately, each with their own timelines, contacts, and follow-ups.</p></article>
-            <article class="spot"><h3>Vetted vendors, not whichever one answered first</h3><p>Fragmented vendor sourcing costs time and invites risk. We source credible, corporate-grade vendors and manage the relationship end-to-end, so you never have to chase quality or accountability yourself.</p></article>
-            <article class="spot"><h3>One vendor trail, fully auditable</h3><p>Every vendor relationship we manage on your behalf is documented and tracked, not scattered across informal arrangements you'd have to reconstruct if ever asked to.</p></article>
-          </div>
-
-          <div class="cxo-cta">
-            <p>Explore office, infrastructure and operational support suited to your team.</p>
-            <a class="cxo-cta-btn" href="contact.html#contact"><span class="cxo-label">Plan Your India Workplace</span> <span class="cxo-arrow" aria-hidden="true">&rarr;</span></a>
-          </div>
-        </div>
-      </section>
-
-    </main>
-    <footer class="site-footer" id="site-footer">
-      <div class="footer-directory">
-        <div class="footer-shell footer-directory-grid cta-directory">
-          <section class="footer-cta-brand">
-            <a class="footer-logo-link" href="index.html" aria-label="Jobman Global home">
-              <img class="footer-logo-image" src="logo%20with%20tagline.png" alt="Jobman Global — Your India Business Partner">
-            </a>
-            <p class="footer-tagline" style="font-size:13px; line-height:1.55; color:var(--on-ink-muted); margin-top:8px;">
-              Headquartered in Bengaluru with solutioning across all 28 States &amp; 8 Union Territories and a European Liaison Desk in Basel&mdash;delivering compliant, integrated operations for global entrants and growing Indian businesses alike.
-            </p>
-            <div class="footer-socials" aria-label="Social media">
-              <a href="https://www.linkedin.com/company/jobman-global/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.2 3.5A2.5 2.5 0 1 1 5.2 8a2.5 2.5 0 0 1 0-4.5zM3 9.5h4.4V22H3zm7.2 0h4.2v1.7h.1c.6-1.1 2-2.3 4.1-2.3 4.4 0 5.2 2.8 5.2 6.5V22h-4.4v-5.8c0-1.4 0-3.2-2.1-3.2s-2.5 1.5-2.5 3.1V22h-4.4z"/></svg></a>
-              <a href="https://wa.me/919741426441" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5a9.5 9.5 0 0 0-8.2 14.4L2.5 21.5l4.8-1.2A9.5 9.5 0 1 0 12 2.5Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8.4 7.8c.2-.4.5-.5.8-.5h.6c.2 0 .4.1.5.4l.8 1.9c.1.3 0 .5-.2.7l-.6.6c.5 1 1.3 1.8 2.3 2.3l.6-.6c.2-.2.5-.3.7-.2l1.9.8c.3.1.4.3.4.5v.6c0 .3-.2.6-.5.8-.4.2-.8.3-1.2.3-2.6-.2-5.7-3.3-5.9-5.9 0-.4.1-.8.3-1.2Z" fill="none" stroke="currentColor" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
-              <a href="https://www.facebook.com/people/Jobman-Global/61577722705301/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4.2c-.5-.1-2.2-.2-3.4-.2C11.2 4 9.5 5.5 9.5 8.3V11H7v4h2.5v9h4.2v-9h3l.5-4h-3.5V8.7c0-.5.1-.7.3-.7z"/></svg></a>
-              <a href="https://www.instagram.com/jobmanglobal/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.5-3a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/></svg></a>
-            </div>
-            <a class="footer-brief-link" href="contact.html#contact" style="border-top:1px solid var(--hair-ink); margin-top:6px; padding-top:12px;">Have a requirement? Send a brief &rarr;</a>
-          </section>
-
-          <section>
-            <h3>Explore</h3>
-            <nav aria-label="Footer explore links">
-              <a href="marketing-advisory.html#market-entry-advisory">Market Entry &amp; Advisory</a>
-              <a href="staffing-eor.html#staffing-eor-overview">EOR &amp; Staffing</a>
-              <a href="marketing-advisory.html#market-entry-advisory">Legal Entity Setup</a>
-              <a href="talent-solutions.html#talent-solutions-overview">Talent Solutions</a>
-              <a href="finance-accounting.html#finance-accounting-overview">Finance &amp; Accounting</a>
-              <a href="workplace-solutions.html#workplace-solutions-overview">Workplace Solutions</a>
-              <a href="gcc.html#gcc-setup-overview">GCC &amp; Partnerships</a>
-            </nav>
-          </section>
-
-          <section>
-            <h3>Company</h3>
-            <nav aria-label="Footer company links">
-              <a href="company.html#company">About Us</a>
-              <a href="company.html#leadership-team">Leadership</a>
-              <a href="global-india.html">Global Desk</a>
-              <a href="contact.html#careers">Careers</a>
-              <a href="contact.html#contact">Contact</a>
-            </nav>
-          </section>
-
-          <section>
-            <h3>Knowledge Hub</h3>
-            <nav aria-label="Footer FAQ links">
-              <a href="resources.html#jobman-ecosystem">Ecosystem</a>
-              <a href="resources.html#provider-table">EOR vs Legal Entity</a>
-              <a href="resources.html#faq">Frequently Asked Questions</a>
-              <a href="resources.html#client-scenarios">Real-World Scenarios</a>
-              <a href="resources.html#india-glossary">India Business Glossary</a>
-              <a href="resources.html#industry-insights">Industry Research</a>
-            <a href="resources.html#growth-corridors">Global Corridors</a>
-            </nav>
-          </section>
-        </div>
-      </div>
-
-      <div class="footer-coordinates-row">
-        <div class="footer-shell footer-coordinates-grid">
-          <!-- Col 1: Registered Corporate Entity -->
-          <div class="footer-coord-col">
-            <div class="footer-coord-head">
-              <span class="footer-coord-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h4"/></svg>
-              </span>
-              <strong>Registered Corporate Entity</strong>
-            </div>
-            <div class="footer-coord-body">
-              <div class="footer-coord-name">JBMN ASSOCIATES PRIVATE LIMITED</div>
-              <div class="footer-coord-cin">CIN: U78100KA2024PTC188225</div>
-              <address class="footer-coord-addr">Bengaluru, KA, IND.</address>
-            </div>
-          </div>
-
-          <!-- Col 2: India Delivery & Operations -->
-          <div class="footer-coord-col">
-            <div class="footer-coord-head">
-              <span class="footer-coord-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 21s7-6.1 7-12a7 7 0 1 0-14 0c0 5.9 7 12 7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
-              </span>
-              <strong>Indian Desk</strong>
-            </div>
-            <div class="footer-coord-body">
-              <div class="footer-coord-contact">
-                <a class="footer-coord-wa" href="https://wa.me/919741426441" target="_blank" rel="noopener noreferrer" aria-label="Chat with Indian Desk on WhatsApp" title="Chat on WhatsApp" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;margin:0 6px 0 0;border-radius:50%;background:#25d366;color:#fff;vertical-align:middle;"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true" style="width:13px;height:13px;display:block;"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg></a><a href="tel:+919741426441">+91 97414 26441</a> &bull; <a href="https://jg.aryanservices.com/cdn-cgi/l/email-protection#b1d8dfd7def1dbded3dcd0dfd6ddded3d0dd9fd2dedc"><span class="__cf_email__" data-cfemail="c7aea9a1a887ada8a5aaa6a9a0aba8a5a6abe9a4a8aa">[email&#160;protected]</span></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Col 3: Europe Desk -->
-          <div class="footer-coord-col">
-            <div class="footer-coord-head">
-              <span class="footer-coord-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
-              </span>
-              <strong>Europe Desk</strong>
-            </div>
-            <div class="footer-coord-body">
-              <div class="footer-coord-contact">
-                <a class="footer-coord-wa" href="https://wa.me/41797925200" target="_blank" rel="noopener noreferrer" aria-label="Chat with Europe Desk on WhatsApp" title="Chat on WhatsApp" style="display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;margin:0 6px 0 0;border-radius:50%;background:#25d366;color:#fff;vertical-align:middle;"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true" style="width:13px;height:13px;display:block;"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-.2-.1-1-.4-2-1.2-.7-.7-1.2-1.5-1.4-1.7-.1-.2 0-.4.1-.5l.4-.4.2-.4c.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9 1.6.7 2.2.7 3 .6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2-.1-.1-.2-.2-.5-.3z"/></svg></a><a href="tel:+41797925200">+41 79 792 52 00</a> &bull; <a href="mailto:info.europe@jobmanglobal.com">info.europe@jobmanglobal.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-shell footer-legal">
-        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; width:100%;">
-          <span>&copy; 2026 Jobman Global. All rights reserved.</span>
-          <nav class="footer-legal-links" aria-label="Legal links">
-            <a href="contact.html#privacy">Privacy Policy</a>
-            <a href="contact.html#terms">Terms &amp; Conditions</a>
-            <a href="https://www.linkedin.com/company/jobman-global/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          </nav>
-        </div>
-      </div>
-    </footer>
-
-    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
-const toggle = document.querySelector(".nav-toggle");
-const nav = document.querySelector(".main-nav");
-const servicesDropdown = document.querySelector(".nav-services");
-const servicesToggle = document.querySelector(".services-toggle");
-const form = document.querySelector("form");
-const header = document.querySelector(".site-header");
-const progress = document.querySelector(".progress");
-const sections = document.querySelectorAll(".section-animate");
-
-const closeServicesMenu = (restoreFocus = false) => {
-  servicesDropdown?.classList.remove("is-open");
-  servicesToggle?.setAttribute("aria-expanded", "false");
-  if (restoreFocus) servicesToggle?.focus();
-};
-
-/* ---------- mobile navigation ---------- */
-toggle?.addEventListener("click", () => {
-  const isOpen = nav.classList.toggle("is-open");
-  toggle.setAttribute("aria-expanded", String(isOpen));
-  toggle.setAttribute("aria-label", isOpen ? "Close navigation" : "Open navigation");
-});
-
-nav?.addEventListener("click", (event) => {
-  if (event.target instanceof HTMLAnchorElement) {
-    closeServicesMenu();
-    nav.classList.remove("is-open");
-    toggle?.setAttribute("aria-expanded", "false");
-    toggle?.setAttribute("aria-label", "Open navigation");
-  }
-});
-
-servicesToggle?.addEventListener("click", (event) => {
-  event.stopPropagation();
-  const isOpen = servicesDropdown.classList.toggle("is-open");
-  servicesToggle.setAttribute("aria-expanded", String(isOpen));
-});
-
-/* ---------- services mega menu on hover (desktop/mouse only) ---------- */
-let closeServicesTimer = null;
-const canHoverServices = window.matchMedia("(hover: hover) and (pointer: fine)").matches;
-if (canHoverServices && servicesDropdown) {
-  servicesDropdown.addEventListener("mouseenter", () => {
-    clearTimeout(closeServicesTimer);
-    servicesDropdown.classList.add("is-open");
-    servicesToggle?.setAttribute("aria-expanded", "true");
-  });
-  servicesDropdown.addEventListener("mouseleave", () => {
-    closeServicesTimer = setTimeout(() => closeServicesMenu(), 150);
-  });
-}
-
-document.addEventListener("click", (event) => {
-  if (servicesDropdown && !servicesDropdown.contains(event.target)) closeServicesMenu();
-});
-
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") {
-    if (servicesDropdown?.classList.contains("is-open")) closeServicesMenu(true);
-    if (nav?.classList.contains("is-open")) {
-      nav.classList.remove("is-open");
-      toggle?.setAttribute("aria-expanded", "false");
-      toggle?.focus();
-    }
-  }
-});
-
-/* ---------- form ---------- */
-form?.addEventListener("submit", (event) => {
-  event.preventDefault();
-  const label = form.querySelector("button span");
-  const button = form.querySelector("button");
-  if (label) label.textContent = "Enquiry noted";
-  button?.setAttribute("disabled", "true");
-});
-
-/* ---------- headline word split ---------- */
-if (!reduce) {
-  document.querySelectorAll("[data-split]").forEach((el) => {
-    const words = el.textContent.trim().split(/\s+/);
-    el.textContent = "";
-    words.forEach((word, i) => {
-      const outer = document.createElement("span");
-      outer.className = "w";
-      outer.style.setProperty("--wi", i);
-      const inner = document.createElement("i");
-      inner.textContent = word;
-      outer.appendChild(inner);
-      el.appendChild(outer);
-      el.appendChild(document.createTextNode(" "));
-    });
-  });
-}
-
-/* ---------- staggered reveals ---------- */
-const REVEAL = [
-  ".section-heading > *",
-  ".hero-copy", ".hero-actions", ".ecosystem-orbit",
-  ".pain-stack span", ".jobman-way",
-  ".service-grid article", ".market-entry-card", ".market-entry-checks li", ".market-entry-actions", ".staffing-stats", ".staffing-card", ".eor-diagram", ".eor-step", ".staffing-table-shell", ".staffing-fit-panel", ".finance-card", ".finance-value-grid article", ".workplace-card", ".workplace-value-grid article", ".accordion-grid details",
-  ".activity-matrix", ".ecosystem-map",
-  ".engagement-grid article", ".company-grid article",
-  ".why-grid span", ".timeline li",
-  ".gcc-visual", ".promise-stack", ".gcc p",
-  ".question-grid span", ".faq details",
-  ".contact-lines", ".contact form"
-].join(",");
-
-if (!reduce) {
-  sections.forEach((section) => {
-    section.querySelectorAll(REVEAL).forEach((el, i) => {
-      el.classList.add("r");
-      el.style.setProperty("--i", i % 8);
-    });
-  });
-}
-
-const activate = (section) => {
-  section.classList.add("in-view");
-  section.querySelectorAll(".r").forEach((el) => el.classList.add("is-in"));
-};
-
-if ("IntersectionObserver" in window) {
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        activate(entry.target);
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.1, rootMargin: "0px 0px -6% 0px" });
-
-  sections.forEach((section) => observer.observe(section));
-} else {
-  sections.forEach(activate);
-}
-
-/* ---------- metric counters ---------- */
-const metricStrip = document.querySelector(".metric-strip");
-
-if (metricStrip) {
-  metricStrip.querySelectorAll("span").forEach((span, i) => span.style.setProperty("--i", i));
-
-  const runCounters = () => {
-    metricStrip.classList.add("is-lit");
-    if (reduce) return;
-    metricStrip.querySelectorAll("strong").forEach((el, i) => {
-      const raw = el.textContent.trim();
-      const target = parseInt(raw, 10);
-      const suffix = raw.replace(/^\d+/, "");
-      if (Number.isNaN(target)) return;
-      if (target === 0) return;
-      const start = performance.now();
-      const dur = 1100 + i * 120;
-      const tick = (now) => {
-        const p = Math.min((now - start) / dur, 1);
-        const eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(target * eased) + suffix;
-        if (p < 1) requestAnimationFrame(tick);
-      };
-      el.textContent = "0" + suffix;
-      requestAnimationFrame(tick);
-    });
-  };
-
-  if ("IntersectionObserver" in window) {
-    const mo = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) { runCounters(); mo.disconnect(); }
-      });
-    }, { threshold: 0.4 });
-    mo.observe(metricStrip);
-  } else {
-    runCounters();
-  }
-}
-
-/* ---------- cursor spotlight ---------- */
-if (!reduce && window.matchMedia("(hover: hover)").matches) {
-  document.querySelectorAll(".spot").forEach((el) => {
-    el.addEventListener("pointermove", (event) => {
-      const rect = el.getBoundingClientRect();
-      el.style.setProperty("--mx", `${event.clientX - rect.left}px`);
-      el.style.setProperty("--my", `${event.clientY - rect.top}px`);
-    });
-  });
-
-  /* magnetic buttons */
-  document.querySelectorAll(".button").forEach((el) => {
-    el.addEventListener("pointermove", (event) => {
-      const rect = el.getBoundingClientRect();
-      const x = (event.clientX - rect.left - rect.width / 2) / rect.width;
-      const y = (event.clientY - rect.top - rect.height / 2) / rect.height;
-      el.style.transform = `translate(${x * 9}px, ${y * 6}px)`;
-    });
-    el.addEventListener("pointerleave", () => { el.style.transform = ""; });
-  });
-}
-
-/* ---------- header, progress, hero parallax ---------- */
-const orbit = document.querySelector(".ecosystem-orbit");
-let ticking = false;
-
-const onScroll = () => {
-  const y = window.scrollY;
-  header?.classList.toggle("is-stuck", y > 24);
-
-  if (progress) {
-    const max = document.documentElement.scrollHeight - window.innerHeight;
-    progress.style.transform = `scaleX(${max > 0 ? Math.min(y / max, 1) : 0})`;
-  }
-
-  if (orbit && !reduce && y < window.innerHeight * 1.4) {
-    orbit.style.setProperty("--py", `${y * -0.07}px`);
-  }
-
-  ticking = false;
-};
-
-window.addEventListener("scroll", () => {
-  if (!ticking) { ticking = true; requestAnimationFrame(onScroll); }
-}, { passive: true });
-onScroll();
-
-/* ---------- current section in nav ---------- */
-const navLinks = [...document.querySelectorAll(".main-nav a")];
-const targets = navLinks
-  .map((link) => link.getAttribute("href"))
-  .filter((href) => href?.startsWith("#"))
-  .map((href) => document.querySelector(href))
-  .filter(Boolean);
-
-if ("IntersectionObserver" in window && targets.length) {
-  const spy = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      navLinks.forEach((link) => {
-        const isCurrent = link.getAttribute("href") === `#${entry.target.id}`;
-        link.classList.toggle("is-current", isCurrent);
-        if (isCurrent) link.setAttribute("aria-current", "true");
-        else link.removeAttribute("aria-current");
-      });
-    });
-  }, { rootMargin: "-45% 0px -50% 0px" });
-
-  targets.forEach((target) => spy.observe(target));
-}
-
-/* ---------- accordions: one open per group ---------- */
-document.querySelectorAll(".accordion-grid, .faq-list").forEach((group) => {
-  const items = [...group.querySelectorAll("details")];
-  items.forEach((item) => {
-    item.addEventListener("toggle", () => {
-      if (!item.open) return;
-      items.forEach((other) => { if (other !== item) other.open = false; });
-    });
-  });
-});
-    </script>
-  <script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a5a6a2e6aa8e449e',t:'MTc5NDY2NTgxMA=='};var l=window.parent.location,o;try{o=new URL(l.origin).origin}catch(e){try{o=new URL(new URL(l.href).origin).origin}catch(e){o=''}}var u='/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a5a6a2e6aa8e449e',a=document.createElement('script');a.src=o?new URL(u,o).href:u;document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
-</html>
